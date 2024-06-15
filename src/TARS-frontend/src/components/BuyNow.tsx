@@ -1,6 +1,6 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import buy from "../../public/about.png";
+import buy from "../../assets/about.png";
 
 interface BuyProps {
   handleConnectWallet: () => void;
@@ -9,12 +9,12 @@ interface BuyProps {
 const Buy: React.FC<BuyProps> = ({ handleConnectWallet }) => {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="bg-gray-700 md:mx-0 mx-2 w-auto relative group/card hover:shadow-xl hover:shadow-[#c90076] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gray-700 md:mx-0 mx-2 w-auto relative group/card hover:shadow-xl hover:shadow-[#dc228f] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
           className="text-xl font-bold font-rem text-white"
         >
-          Join the <span className="text-[#c90076]">$TARS MOVEMENT</span>
+          Join the <span className="text-[#dc228f]">$TARS MOVEMENT</span>
         </CardItem>
         <CardItem
           as="p"
@@ -45,7 +45,7 @@ const Buy: React.FC<BuyProps> = ({ handleConnectWallet }) => {
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-[#c90076] text-black text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-[#dc228f] text-black text-xs font-bold"
           >
             <a
               href="https://app.icpswap.com/swap?input=ryjl3-tyaaa-aaaaa-aaaba-cai&output=i5xtb-aaaaa-aaaam-acrja-cai"

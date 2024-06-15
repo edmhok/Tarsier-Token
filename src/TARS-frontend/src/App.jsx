@@ -47,7 +47,7 @@ function App() {
 
   return (
     <Router>
-      <main className="bg-[#041c32] pb-12 md:pb-0">
+      <main className="bg-[#0b1541] pb-12 md:pb-0">
         <Navbar />
         {showPopup && (
           <WalletPopup

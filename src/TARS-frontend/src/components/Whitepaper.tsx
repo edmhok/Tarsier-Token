@@ -17,12 +17,12 @@ const Whitepaper: React.FC = () => {
 
   return (
     <div className="bg-[#041c32] py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
-      <h1 className="text-4xl font-bold text-center text-[#c90076] mb-8">
+      <h1 className="text-4xl font-bold text-center text-[#dc228f] mb-8">
         Tarsier Token White Paper
       </h1>
       <TracingBeam>
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -36,13 +36,13 @@ const Whitepaper: React.FC = () => {
               Tarsier Token (TARS) is a revolutionary meme Token with a utility
               twist, designed for wildlife lovers around the world. Built on
               the{" "}
-              <span className="text-[#c90076] font-bold">
+              <span className="text-[#dc228f] font-bold">
                 Internet Computer (ICP) blockchain
               </span>
               , Tarsier Token aims to become the go-to currency for community activities
               for any environmental protection and wildlife conservation events tickets, appreciation
               or award token, donation token, NFT and Arts. Additionally, TARS serves as a{" "}
-              <span className="text-[#c90076] font-bold">governance token</span>
+              <span className="text-[#dc228f] font-bold">governance token</span>
               , allowing its holders to vote on proposals and changes, ensuring
               the community has a say in its future development.
             </CardItem>
@@ -50,7 +50,7 @@ const Whitepaper: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -77,7 +77,7 @@ const Whitepaper: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-[50px] border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -88,7 +88,7 @@ const Whitepaper: React.FC = () => {
               translateZ={60}
               className="text-lg text-gray-300 font-rem"
             >
-              <strong className="text-[#c90076] font-rem">
+              <strong className="text-[#dc228f] font-rem">
                 Phase 1: Launch (Days 1-7)
               </strong>
               <ul className="list-disc list-inside mt-4 font-rem">
@@ -103,7 +103,7 @@ const Whitepaper: React.FC = () => {
                   Day 3: List Tarsier Token on major cryptocurrency exchanges.
                 </li>
               </ul>
-              <strong className="text-[#c90076]">
+              <strong className="text-[#dc228f]">
                 Phase 2: Community Building (Months 1-4)
               </strong>
               <ul className="list-disc list-inside mt-4">
@@ -122,7 +122,7 @@ const Whitepaper: React.FC = () => {
                   Month 4: Implement community events tickets as admission token
                 </li>
               </ul>
-              <strong className="text-[#c90076]">
+              <strong className="text-[#dc228f]">
                 Phase 3: Governance and Development (Months 4-6)
               </strong>
               <ul className="list-disc list-inside mt-4">
@@ -136,7 +136,7 @@ const Whitepaper: React.FC = () => {
                   community feedback.
                 </li>
               </ul>
-              <strong className="text-[#c90076]">
+              <strong className="text-[#dc228f]">
                 Phase 4: Expansion and Sustainability (Months 7-12)
               </strong>
               <ul className="list-disc list-inside mt-4">
@@ -158,7 +158,7 @@ const Whitepaper: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -169,17 +169,17 @@ const Whitepaper: React.FC = () => {
               translateZ={60}
               className="text-lg text-gray-300 font-rem"
             >
-              <strong className="text-[#c90076] font-rem">Total Supply:</strong>{" "}
+              <strong className="text-[#dc228f] font-rem">Total Supply:</strong>{" "}
               990,990,990,990 $TARS
               <br />
               <br />
-              <strong className="text-[#c90076] font-rem">
+              <strong className="text-[#dc228f] font-rem">
                 Distribution and Issuance Schedule
               </strong>
               <br />
               <ul className="list-disc list-inside mt-4 font-rem">
                 <li>
-                  <strong className="text-[#c90076]">
+                  <strong className="text-[#dc228f]">
                     Proof-of-Work PoW Consensus Mechanism:
                   </strong>{" "}
                   Tarsier Token operates on the Internet Computer blockchain,
@@ -188,7 +188,7 @@ const Whitepaper: React.FC = () => {
                   network, contributing to its security and functionality.
                 </li>
                 <li>
-                  <strong className="text-[#c90076]">
+                  <strong className="text-[#dc228f]">
                     Initial Distribution:
                   </strong>{" "}
                   Genesis Block: Initial distribution of $TARS Tarsier Token:
@@ -209,7 +209,7 @@ const Whitepaper: React.FC = () => {
                   </ul>
                 </li>
                 <li>
-                  <strong className="text-[#c90076]">Mining Rewards:</strong>{" "}
+                  <strong className="text-[#dc228f]">Mining Rewards:</strong>{" "}
                   Participants contribute computational resources to the network
                   and are rewarded with TARS tokens. Mining rewards are
                   distributed to validators based on their contribution to the
@@ -221,7 +221,7 @@ const Whitepaper: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-[50px] border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -234,21 +234,21 @@ const Whitepaper: React.FC = () => {
             >
               <ul className="list-disc list-inside mt-4 font-rem">
                 <li>
-                  <strong className="text-[#c90076]">
+                  <strong className="text-[#dc228f]">
                     Decentralized Governance:
                   </strong>{" "}
                   TARS holders participate in decentralized governance through
                   proposals and voting mechanisms on the Internet Computer.
                 </li>
                 <li>
-                  <strong className="text-[#c90076]">
+                  <strong className="text-[#dc228f]">
                     Scalability and Security:
                   </strong>{" "}
                   Leveraging the Internet Computer's scalability and security
                   features ensures efficient and secure token operations.
                 </li>
                 <li>
-                  <strong className="text-[#c90076]">
+                  <strong className="text-[#dc228f]">
                     Community Building and Adoption:
                   </strong>{" "}
                   Develop partnerships with WildLife Conservation and Natural Resources Program to
@@ -257,7 +257,7 @@ const Whitepaper: React.FC = () => {
                   the community.
                 </li>
                 <li>
-                  <strong className="text-[#c90076]">
+                  <strong className="text-[#dc228f]">
                     Environmental Sustainability:
                   </strong>{" "}
                   Explore eco-friendly practices for token operations on the
@@ -269,7 +269,7 @@ const Whitepaper: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -280,14 +280,14 @@ const Whitepaper: React.FC = () => {
               translateZ={60}
               className="text-lg text-gray-300 font-rem"
             >
-              <strong className="text-[#c90076]">
+              <strong className="text-[#dc228f]">
                 Decentralized Governance:
               </strong>{" "}
               Proposals are submitted and voted on by TARS holders using the
               Internet Computer's governance mechanism.
               <br />
               <br />
-              <strong className="text-[#c90076]">Implementation:</strong>{" "}
+              <strong className="text-[#dc228f]">Implementation:</strong>{" "}
               Approved proposals are implemented through smart contracts on the
               Internet Computer, ensuring transparency and efficiency.
             </CardItem>

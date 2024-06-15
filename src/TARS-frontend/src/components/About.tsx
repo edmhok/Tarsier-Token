@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../../public/about.png";
+import aboutImage from "../../assets/about.png";
 
 interface BuyProps {
   handleConnectWallet: () => void;
@@ -10,7 +10,7 @@ const About: React.FC<BuyProps> = ({ handleConnectWallet }) => {
     <div className="py-20 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl font-bold text-[#fff] text-center font-rem">
         About{" "}
-        <span className="text-[#c90076] font-rem font-extrabold">$TARS </span>
+        <span className="text-[#dc228f] font-rem font-extrabold">$TARS </span>
         Tarsier Token
       </h2>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">

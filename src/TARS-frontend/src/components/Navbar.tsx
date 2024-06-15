@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../public/images/logo.png";
+import logo from "../../assets/images/logo.png";
 import { FaTelegram, FaTwitter } from "react-icons/fa";
 import { HiChatAlt2 } from "react-icons/hi";
 import { Link, useNavigate } from "react-router-dom";
@@ -27,12 +27,12 @@ const Navbar: React.FC = () => {
           } flex items-center justify-center md:hidden h-screen relative`}
       >
         <div className="absolute top-5 left-10">
-          <IoMdClose color="#c90076" size={44} onClick={() => setMenu(!menu)} />
+          <IoMdClose color="#dc228f" size={44} onClick={() => setMenu(!menu)} />
         </div>
         <div className="flex-col items-center justify-between">
           <div className=" w-full text-gray-600 flex flex-col items-center justify-center gap-12 ">
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
               to="/airdrops"
               onClick={() => nav("/airdrops")}
             >
@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
 
             <div className="bg-gray-300 h-[1px] w-full"></div>
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#f782c6] ease-in duration-150 cursor-pointer"
               to="/features"
               onClick={() => nav("/features")}
             >
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
 
             <div className="bg-gray-300 h-[1px] w-full"></div>
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
               to="/whitepaper"
               onClick={() => nav("/whitepaper")}
             >
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
 
             <div className="bg-gray-300 h-[1px] w-full"></div>
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
               to="/developer-docs"
               onClick={() => nav("/developer-docs")}
             >
@@ -76,38 +76,38 @@ const Navbar: React.FC = () => {
             className="w-10 h-10"
             onClick={() => nav("/")}
           />
-          <Link to="/" className="font-rem text-[#c90076]">
+          <Link to="/" className="font-rem text-[#dc228f]">
             Tarsier Token
           </Link>
         </div>
         <div className="flex items-center justify-between">
           <div className="hidden w-full text-gray-600 md:flex md:items-center">
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
               to="/about"
             >
               About
             </Link>
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
               to="/features"
             >
               Features
             </Link>
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
               to="/whitepaper"
             >
               Whitepaper
             </Link>
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
               to="/airdrop"
             >
               Airdrop
             </Link>
             <Link
-              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#c90076] ease-in duration-150 cursor-pointer"
+              className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
               to="/developer-docs"
             >
               Docs
@@ -121,18 +121,18 @@ const Navbar: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="border-[1px] border-[#c90076] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
-              <HiChatAlt2 color="#c90076" size={24} />
+            <div className="border-[1px] border-[#dc228f] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
+              <HiChatAlt2 color="#dc228f" size={24} />
             </div>
           </a>
           <a href="https://x.com/tarsierian" target="_blank" rel="noopener noreferrer">
-            <div className="border-[1px] border-[#c90076] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
-              <FaTwitter color="#c90076" size={24} />
+            <div className="border-[1px] border-[#dc228f] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
+              <FaTwitter color="#dc228f" size={24} />
             </div>
           </a>
           <a href="https://t.me/TarsierToken" target="_blank" rel="noopener noreferrer">
-            <div className="border-[1px] cursor-pointer border-[#c90076] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
-              <FaTelegram color="#c90076" size={24} />
+            <div className="border-[1px] cursor-pointer border-[#dc228f] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
+              <FaTelegram color="#dc228f" size={24} />
             </div>
           </a>
         </div>
@@ -146,19 +146,19 @@ const Navbar: React.FC = () => {
               initial={{ rotate: 0, y: 0 }}
               animate={{ rotate: menu ? 45 : 0, y: menu ? 8 : 0 }}
               transition={{ duration: 0.3 }}
-              className="block w-6 h-0.5 bg-[#c90076] mb-1"
+              className="block w-6 h-0.5 bg-[#dc228f] mb-1"
             />
             <motion.div
               initial={{ opacity: 1 }}
               animate={{ opacity: menu ? 0 : 1 }}
               transition={{ duration: 0.3 }}
-              className="block w-6 h-0.5 bg-[#c90076] mb-1"
+              className="block w-6 h-0.5 bg-[#dc228f] mb-1"
             />
             <motion.div
               initial={{ rotate: 0, y: 0 }}
               animate={{ rotate: menu ? -45 : 0, y: menu ? -8 : 0 }}
               transition={{ duration: 0.3 }}
-              className="block w-6 h-0.5 bg-[#c90076]"
+              className="block w-6 h-0.5 bg-[#dc228f]"
             />
           </motion.button>
         </div>

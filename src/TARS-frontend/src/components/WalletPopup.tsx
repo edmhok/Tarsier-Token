@@ -111,7 +111,7 @@ const WalletPopup: React.FC<WalletPopupProps> = ({
         </h2>
         <div className="flex justify-between mb-4">
           <button
-            className={`bg-[#c90076] text-[#041c32] font-semibold font-rem hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#c90076] duration-300 transition-all  hover:scale-105 hover:shadow-lg ${isConnecting ? "opacity-50 cursor-not-allowed" : ""
+            className={`bg-[#dc228f] text-[#041c32] font-semibold font-rem hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] duration-300 transition-all  hover:scale-105 hover:shadow-lg ${isConnecting ? "opacity-50 cursor-not-allowed" : ""
               }`}
             onClick={connectPlugWallet}
             disabled={isConnecting}
@@ -119,7 +119,7 @@ const WalletPopup: React.FC<WalletPopupProps> = ({
             {isConnecting && walletType === 'plug' ? "Connecting..." : "Plug Wallet"}
           </button>
           <button
-            className={`bg-[#c90076] text-[#041c32] font-semibold text-lg font-rem md:text-xl hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#c90076] transition duration-300 ${isConnecting ? 'opacity-50 cursor-not-allowed' : ''
+            className={`bg-[#dc228f] text-[#041c32] font-semibold text-lg font-rem md:text-xl hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] transition duration-300 ${isConnecting ? 'opacity-50 cursor-not-allowed' : ''
               }`}
             onClick={connectNFIDWalletHandler}
             disabled={isConnecting}

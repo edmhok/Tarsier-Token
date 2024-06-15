@@ -32,7 +32,7 @@ const Features: React.FC = () => {
       >
         <motion.h1
           variants={fadeInUp}
-          className="text-4xl font-bold text-center text-[#c90076] mb-8 font-rem"
+          className="text-4xl font-bold text-center text-[#dc228f] mb-8 font-rem"
         >
           Unique Features of Tarsier Token
         </motion.h1>
@@ -54,7 +54,7 @@ const Features: React.FC = () => {
         >
           <motion.h2
             variants={fadeInUp}
-            className="text-3xl font-bold text-center text-[#c90076] mb-8 font-rem"
+            className="text-3xl font-bold text-center text-[#dc228f] mb-8 font-rem"
           >
             Core Features
           </motion.h2>
@@ -62,11 +62,11 @@ const Features: React.FC = () => {
             initial="hidden"
             animate="visible"
             variants={staggerContainer}
-            className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid md:grid-cols-2 lg:grid-cols-3 gap-[9rem]"
           >
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -77,7 +77,7 @@ const Features: React.FC = () => {
                     translateZ={60}
                     className="text-lg text-gray-300 font-rem"
                   >
-                    <span className="text-[#c90076] font-bold font-rem">
+                    <span className="text-[#dc228f] font-bold font-rem">
                       Tarsier Token $TARS
                     </span>{" "}
                     holders participate in decentralized governance through
@@ -89,7 +89,7 @@ const Features: React.FC = () => {
 
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -100,7 +100,7 @@ const Features: React.FC = () => {
                     translateZ={60}
                     className="text-lg text-gray-300 font-rem"
                   >
-                    <span className="text-[#c90076] font-bold font-rem">
+                    <span className="text-[#dc228f] font-bold font-rem">
                       Tarsier Token $TARS
                     </span>{" "}
                     holders participate in decentralized governance through
@@ -112,7 +112,7 @@ const Features: React.FC = () => {
 
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -124,7 +124,7 @@ const Features: React.FC = () => {
                     className="text-lg text-gray-300 font-rem"
                   >
                     Leveraging the{" "}
-                    <span className="text-[#c90076] font-bold">
+                    <span className="text-[#dc228f] font-bold">
                       Internet Computer's
                     </span>{" "}
                     scalability and security features ensures efficient and
@@ -136,7 +136,7 @@ const Features: React.FC = () => {
 
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -149,7 +149,7 @@ const Features: React.FC = () => {
                   >
                     Develop partnerships with restaurants and food outlets to
                     accept{" "}
-                    <span className="text-[#c90076] font-bold">$TARS TOKEN</span> as
+                    <span className="text-[#dc228f] font-bold">$TARS TOKEN</span> as
                     payment. Implement loyalty programs and incentives to
                     encourage adoption and usage of Tarsier Token in the community.
                   </CardItem>
@@ -159,7 +159,7 @@ const Features: React.FC = () => {
 
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -171,7 +171,7 @@ const Features: React.FC = () => {
                     className="text-lg text-gray-300 font-rem"
                   >
                     Explore eco-friendly practices for token operations on the{" "}
-                    <span className="text-[#c90076] font-bold">
+                    <span className="text-[#dc228f] font-bold">
                       Internet Computer
                     </span>
                     , aligning with sustainability initiatives.
@@ -190,7 +190,7 @@ const Features: React.FC = () => {
         >
           <motion.h2
             variants={fadeInUp}
-            className="text-3xl font-bold text-center text-[#c90076] mb-8 font-rem"
+            className="text-3xl font-bold text-center text-[#dc228f] mb-8 font-rem"
           >
             Development Features
           </motion.h2>
@@ -202,7 +202,7 @@ const Features: React.FC = () => {
           >
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -214,7 +214,7 @@ const Features: React.FC = () => {
                     className="text-lg text-gray-300 font-rem"
                   >
                     Integrate Tarsier Token with{" "}
-                    <span className="text-[#c90076] font-bold">DFINITY's</span>{" "}
+                    <span className="text-[#dc228f] font-bold">DFINITY's</span>{" "}
                     Internet Computer Protocol for seamless development and
                     deployment of decentralized applications.
                   </CardItem>
@@ -232,7 +232,7 @@ const Features: React.FC = () => {
         >
           <motion.h2
             variants={fadeInUp}
-            className="text-3xl font-bold text-center text-[#c90076] mb-8 font-rem"
+            className="text-3xl font-bold text-center text-[#dc228f] mb-8 font-rem"
           >
             Future Features
           </motion.h2>
@@ -240,11 +240,11 @@ const Features: React.FC = () => {
             initial="hidden"
             animate="visible"
             variants={staggerContainer}
-            className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid md:grid-cols-2 lg:grid-cols-3 gap-[9rem]"
           >
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -257,7 +257,7 @@ const Features: React.FC = () => {
                   >
                     Launch an NFT marketplace where users can buy, sell, and
                     trade{" "}
-                    <span className="text-[#c90076] font-bold">TARSIER</span>
+                    <span className="text-[#dc228f] font-bold">TARSIER</span>
                     -themed NFTs, promoting community engagement and creativity.
                   </CardItem>
                 </CardBody>
@@ -266,7 +266,7 @@ const Features: React.FC = () => {
 
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -279,7 +279,7 @@ const Features: React.FC = () => {
                   >
                     Integrate with decentralized finance (DeFi) platforms to
                     offer staking, lending, and borrowing of{" "}
-                    <span className="text-[#c90076] font-bold">Tarsier</span>{" "}
+                    <span className="text-[#dc228f] font-bold">Tarsier</span>{" "}
                     tokens.
                   </CardItem>
                 </CardBody>
@@ -288,7 +288,7 @@ const Features: React.FC = () => {
 
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -301,7 +301,7 @@ const Features: React.FC = () => {
                   >
                     Ensure cross-chain compatibility with other blockchains like
                     Ethereum and Binance Smart Chain, enabling{" "}
-                    <span className="text-[#c90076] font-bold">Tarsier</span> to
+                    <span className="text-[#dc228f] font-bold">Tarsier</span> to
                     be used across multiple platforms.
                   </CardItem>
                 </CardBody>
@@ -310,7 +310,7 @@ const Features: React.FC = () => {
 
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
-                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
                   <CardItem
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
@@ -323,7 +323,7 @@ const Features: React.FC = () => {
                   >
                     Provide advanced analytics and insights for users and
                     developers to track the performance and usage of{" "}
-                    <span className="text-[#c90076] font-bold">TARSIER</span>{" "}
+                    <span className="text-[#dc228f] font-bold">TARSIER</span>{" "}
                     tokens.
                   </CardItem>
                 </CardBody>

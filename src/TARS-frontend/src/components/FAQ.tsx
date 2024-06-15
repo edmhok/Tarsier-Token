@@ -20,7 +20,7 @@ export default function FAQ() {
     <div className="h-[40rem] flex flex-col justify-center  items-center px-4">
       <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl text-gray-100">
         Ask anything about{" "}
-        <span className="text-[#c90076] font-semibold">$TARS</span>
+        <span className="text-[#dc228f] font-semibold">$TARS</span>
       </h2>
       <PlaceholdersAndVanishInput
         placeholders={placeholders}

@@ -41,13 +41,13 @@ const PurchaseTarsPopup: React.FC<PurchaseTarsProps> = ({ onClose }) => {
             id="amount"
             value={amount}
             onChange={handleAmountChange}
-            className="w-full px-4 font-rem py-2 border border-gray-300 rounded bg-gray-800 text-gray-300 focus:outline-none focus:border-[#c90076] transition-all duration-300"
+            className="w-full px-4 font-rem py-2 border border-gray-300 rounded bg-gray-800 text-gray-300 focus:outline-none focus:border-[#dc228f] transition-all duration-300"
             placeholder="Enter amount"
           />
         </div>
         <div className="flex justify-center mb-4">
           <button
-            className="px-4 py-2 font-rem bg-[#c90076] text-[#041c32] border-2 border-[#c90076] rounded-lg"
+            className="px-4 py-2 font-rem bg-[#dc228f] text-[#041c32] border-2 border-[#dc228f] rounded-lg"
             onClick={handlePurchase}
             disabled={!amount}
           >

@@ -2,7 +2,7 @@ import React from "react";
 import { FaTelegram } from "react-icons/fa";
 import { HiChatAlt2 } from "react-icons/hi";
 import { FaTwitter } from "react-icons/fa6";
-import iconBg from "../../public/tars-bckgnd.png";
+import iconBg from "../../assets/tars-bckgnd.png";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 
@@ -23,20 +23,20 @@ const Footer: React.FC = () => {
           Join Our Socials
         </h2>
         <div className="flex items-center gap-4 w-full justify-center">
-          <a
+          {/* <a
             href="https://oc.app/"
             target="_blank"
           >
             <div className="flex flex-col items-center justify-center p-1">
-              <HiChatAlt2 color="#c90076" size={44} />
+              <HiChatAlt2 color="#dc228f" size={44} />
               <h1 className="md:font-bold text-sm md:text-lg text-gray-300">
                 OpenChat
               </h1>
             </div>
-          </a>
+          </a> */}
           <a href="https://x.com/Tarsierian" target="_blank">
             <div className=" flex flex-col items-center justify-center p-1">
-              <FaTwitter color="#c90076" size={44} />
+              <FaTwitter color="#dc228f" size={44} />
               <h1 className="md:font-bold text-sm md:text-lg text-gray-300">
                 Twitter(X)
               </h1>
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
 
           <a href="https://t.me/tarsiertoken" target="_blank">
             <div className=" flex flex-col items-center justify-center p-1">
-              <FaTelegram color="#c90076" size={44} />
+              <FaTelegram color="#dc228f" size={44} />
               <h1 className="md:font-bold text-sm md:text-lg text-gray-300">
                 Telegram
               </h1>
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
             target="_blank"
           >
             <div className=" flex flex-col items-center justify-center p-1">
-              <FaLinkedin color="#c90076" size={44} />
+              <FaLinkedin color="#dc228f" size={44} />
               <h1 className="md:font-bold text-sm md:text-lg text-gray-300">
                 Linkedin
               </h1>
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
             target="_blank"
           >
             <div className=" flex flex-col items-center justify-center p-1">
-              <FaSquareInstagram color="#c90076" size={44} />
+              <FaSquareInstagram color="#dc228f" size={44} />
               <h1
                 className="md:font-bold text-sm md:text-lg
    text-gray-300"
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
         All rights reserved by{" "}
         <a
           href="https://dashboard.internetcomputer.org/canister/"
-          className="text-[#c90076] font-bold"
+          className="text-[#dc228f] font-bold"
         >
           $TARS
         </a>{" "}

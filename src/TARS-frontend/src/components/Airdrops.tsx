@@ -5,7 +5,7 @@ import { useSpring, animated } from "@react-spring/web";
 import { CardContainer, CardBody, CardItem } from "./ui/3d-card";
 import { TracingBeam } from "./ui/tracing-beam";
 import useMedia from "../hooks/useMedia";
-import TarsierImage from "../../public/images/hero.png";
+import TarsierImage from "../../assets/images/hero.png";
 
 const Airdrops: React.FC = () => {
   const isMobile = useMedia("(max-width: 768px)");
@@ -39,12 +39,12 @@ const Airdrops: React.FC = () => {
 
   return (
     <div className="bg-[#041c32] py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
-      <h1 className="text-4xl font-bold text-center text-[#c90076] mb-8 font-rem">
+      <h1 className="text-4xl font-bold text-center text-[#dc228f] mb-8 font-rem">
         Airdrop Mechanism
       </h1>
       <TracingBeam>
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 font-rem text-white"
@@ -64,7 +64,7 @@ const Airdrops: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -96,7 +96,7 @@ const Airdrops: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white  font-rem"
@@ -132,7 +132,7 @@ const Airdrops: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -164,7 +164,7 @@ const Airdrops: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -197,7 +197,7 @@ const Airdrops: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"
@@ -229,7 +229,7 @@ const Airdrops: React.FC = () => {
         </CardContainer>
 
         <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#c90076] transition-shadow duration-300">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
               className="text-2xl font-bold mb-4 text-white font-rem"

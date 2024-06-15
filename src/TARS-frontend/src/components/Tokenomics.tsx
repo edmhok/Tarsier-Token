@@ -7,15 +7,15 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
-import tarsierImage from "../../public/tar.png";
+import tarsierImage from "../../assets/tar.png";
 
 const data = [
-  { name: "Early Contributors and Team", value: 9450000 },
-  { name: "Community Building and Rewards", value: 1050000 },
-  { name: "Development Fund", value: 1050000 },
+  { name: "Early Contributors and Team", value: 812_612_612_612 },
+  { name: "Community Building and Rewards", value: 148_648_648_648 },
+  { name: "Development Fund", value: 89_189_189_189 },
 ];
 
-const COLORS = ["#FFBB28", "#FF8042", "#00C49F"];
+const COLORS = ["#AF47D2", "#3572EF", "#FC4100"];
 
 const renderCustomizedLabel = ({
   cx,
@@ -51,17 +51,17 @@ const Tokenomics: React.FC = () => {
   return (
     <div className=" py-20 px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-[#c90076] text-center font-rem">
+        <h2 className="text-3xl font-extrabold text-[#dc228f] text-center font-rem">
           Tokenomics
         </h2>
         <div className="mt-10">
-          <p className="mt-4 text-2xl text-[#c90076] font-extrabold text-center font-rem">
+          <p className="mt-4 text-2xl text-[#dc228f] font-extrabold text-center font-rem">
             <strong className="text-white">Total Supply:</strong> 990 BILLION
             $TARS
           </p>
         </div>
         <div className="mt-10">
-          <h3 className="text-2xl font-bold text-[#c90076] font-rem">
+          <h3 className="text-2xl font-bold text-[#dc228f] font-rem">
             Initial Distribution
           </h3>
           <div className="flex flex-col md:flex-row items-center justify-between">
@@ -96,14 +96,14 @@ const Tokenomics: React.FC = () => {
               </h4>
               <ul className="mt-2 text-lg text-gray-100 py-4 list-disc list-inside font-rem">
                 <li className="leading-relaxed">
-                  <strong className="text-[#c90076]">
+                  <strong className="text-[#dc228f]">
                     PoW Consensus Mechanism:
                   </strong>{" "}
                   Tarsier Token operates on the Internet Computer blockchain,
                   utilizing the PoW consensus mechanism.
                 </li>
                 <li>
-                  <strong className="text-[#c90076]">
+                  <strong className="text-[#dc228f]">
                     Initial Distribution:
                   </strong>
                   <ul className="list-inside list-disc font-rem">
@@ -117,7 +117,7 @@ const Tokenomics: React.FC = () => {
                           Each team member receives: 198,198,198,198 (1,198,198 $TARS / 100000)
                         </li>
                         <li>
-                          Community Building and Rewards: 5% (148,648,648,648.50 $TARS)
+                          Community Building and Rewards: 15% (148,648,648,648.50 $TARS)
                         </li>
                         <li>Development Fund: 5% (49,549,549,549.50 $TARS)</li>
                       </ul>
@@ -125,7 +125,7 @@ const Tokenomics: React.FC = () => {
                   </ul>
                 </li>
                 <li>
-                  <strong className="text-[#c90076]">Mining Rewards:</strong>{" "}
+                  <strong className="text-[#dc228f]">Mining Rewards:</strong>{" "}
                   Participants contribute computational resources to the network
                   and are rewarded with $TARS tokens.
                 </li>
