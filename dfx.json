@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "TARS-backend": {
+      "main": "src/TARS-backend/main.mo",
+      "type": "motoko"
+    },
+    "TARS-frontend": {
+      "dependencies": [
+        "TARS-backend"
+      ],
+      "source": [
+        "src/TARS-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "TARS-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
