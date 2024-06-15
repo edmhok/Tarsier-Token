@@ -49,7 +49,7 @@ const sectionContent: Record<Section, JSX.Element> = {
         First, clone the repository and install the dependencies:
       </p>
       <CodeBlock
-        code={`git clone https://github.com/Tarsier-Token/TARS-Token.git \n cd Tarsier-Token\nnpm install`}
+        code={`git clone https://github.com/edmhok/Tarsier-Token \n cd Tarsier-Token\nnpm install`}
       />
       <h2 className="text-2xl font-semibold mb-2">Running the Project</h2>
       <p className="mb-2">

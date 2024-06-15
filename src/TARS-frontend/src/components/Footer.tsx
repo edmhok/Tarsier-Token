@@ -2,7 +2,7 @@ import React from "react";
 import { FaTelegram } from "react-icons/fa";
 import { HiChatAlt2 } from "react-icons/hi";
 import { FaTwitter } from "react-icons/fa6";
-import iconBg from "../../public/images/logo.png";
+import iconBg from "../../public/tars-bckgnd.png";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 
@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
     <footer className="relative h-80 flex items-center justify-center bg-cover bg-center text-center text-white px-4">
       {/* Pseudo-element for the background image */}
       <div
-        className="absolute inset-0 bg-repeat bg-center bg-contain opacity-30"
+        className="absolute inset-0 bg-no-repeat bg-center bg-contain opacity-30"
         style={{
           backgroundImage: `url(${iconBg})`,
           backgroundSize: "contain",

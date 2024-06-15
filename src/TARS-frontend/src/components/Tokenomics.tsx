@@ -7,7 +7,7 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
-import sauceImage from "../../public/tar.png";
+import tarsierImage from "../../public/tar.png";
 
 const data = [
   { name: "Early Contributors and Team", value: 9450000 },
@@ -136,7 +136,7 @@ const Tokenomics: React.FC = () => {
       </div>
       <div className="position absolute md:top-0 md:left-0 top-5 left-5">
         <img
-          src={sauceImage}
+          src={tarsierImage}
           alt="sauce image"
           className="md:w-40 h-auto w-20"
         />

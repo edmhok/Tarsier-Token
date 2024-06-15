@@ -1,6 +1,6 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import buy from "../../public/buy.jpeg";
+import buy from "../../public/about.png";
 
 interface BuyProps {
   handleConnectWallet: () => void;
@@ -28,14 +28,14 @@ const Buy: React.FC<BuyProps> = ({ handleConnectWallet }) => {
             src={buy}
             height="1000"
             width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-100 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
           />
         </CardItem>
         <div className="flex justify-between items-center mt-20">
           <CardItem
             translateZ={20}
-            href="https://twitter.com/mannupaaji"
+            href="https://x.com/tarsierian"
             target="__blank"
             onClick={handleConnectWallet}
             className="px-4 py-2 rounded-xl text-xs font-normal text-white cursor-pointer"
@@ -48,7 +48,7 @@ const Buy: React.FC<BuyProps> = ({ handleConnectWallet }) => {
             className="px-4 py-2 rounded-xl bg-[#c90076] text-black text-xs font-bold"
           >
             <a
-              href="https://app.icpswap.com/swap?input=ryjl3-tyaaa-aaaaa-aaaba-cai&output=ezu5v-7qaaa-aaaam-acpbq-cai"
+              href="https://app.icpswap.com/swap?input=ryjl3-tyaaa-aaaaa-aaaba-cai&output=i5xtb-aaaaa-aaaam-acrja-cai"
               target="_blank"
             >
               Swap $TARS

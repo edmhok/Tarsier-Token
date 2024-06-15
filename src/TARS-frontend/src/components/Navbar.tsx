@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
 
         <div className="flex items-center gap-2 w-full justify-end">
           <a
-            href="https://oc.app/community/k3fk6-gaaaa-aaaar-bav6a-cai/channel/248604123721879774877830511727450740199"
+            href="https://oc.app/community/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -125,7 +125,7 @@ const Navbar: React.FC = () => {
               <HiChatAlt2 color="#c90076" size={24} />
             </div>
           </a>
-          <a href="https://x.com/TarsierToken" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/tarsierian" target="_blank" rel="noopener noreferrer">
             <div className="border-[1px] border-[#c90076] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
               <FaTwitter color="#c90076" size={24} />
             </div>
