@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
             </Link>
             <Link
               className="mx-4 text-gray-300 font-rem font-semibold hover:text-[#dc228f] ease-in duration-150 cursor-pointer"
-              to="/airdrop"
+              to="/airdrops"
             >
               Airdrop
             </Link>

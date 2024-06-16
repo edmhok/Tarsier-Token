@@ -94,42 +94,46 @@ const Tokenomics: React.FC = () => {
             </div>
             <div className="w-full md:w-1/2 mt-6 md:mt-0 md:pl-8">
               <h4 className="text-xl font-semibold text-gray-300 font-rem">
-                Distribution and Issuance Schedule:
+                Issuance Schedule:
               </h4>
-              <ul className="mt-2 text-lg text-gray-100 py-4 list-disc list-inside font-rem">
-                <li className="leading-relaxed">
+              <ul className="mt-2 text-lg text-gray-100 py-4 list-none list-inside font-rem">
+                <li className="leading-normal">
                   <strong className="text-[#dc228f]">
-                    PoW Consensus Mechanism:
-                  </strong>{" "}
-                  Tarsier Token operates on the Internet Computer blockchain,
-                  utilizing the PoW consensus mechanism.
+                    Phase 1: Initial Launch (Q4 2024)
+                  </strong>{" "}<br />
+                  <b>Community Airdrops/Rewards (10%):</b> <p className="text-xs">Distribute tokens through various community
+                    engagement initiatives (e.g., contests, social media engagement) to build initial
+                    excitement and a loyal following.</p> <br />
+                  <b>Presale/IDO (10%): </b><p className="text-xs"> Conduct a presale or initial DEX offering to raise funds
+                    for initial development and marketing efforts. Offer early supporters the opportunity
+                    to acquire $TARS at a discounted price. </p>
                 </li>
-                <li>
+                <li className="leading-normal">
                   <strong className="text-[#dc228f]">
-                    Initial Distribution:
-                  </strong>
-                  <ul className="list-inside list-disc font-rem">
-                    <li>
-                      <span>Genesis Block:</span>
-                      <ul className="list-inside list-item pl-4">
-                        <li>
-                          Early Contributors and Team: 30% (445,945,945,945.5 $TARS)
-                        </li>
-                        <li>
-                          Each team member receives: 198,198,198,198 (1,198,198 $TARS / 100000)
-                        </li>
-                        <li>
-                          Community Building and Rewards: 15% (148,648,648,648.50 $TARS)
-                        </li>
-                        <li>Development Fund: 5% (49,549,549,549.50 $TARS)</li>
-                      </ul>
-                    </li>
-                  </ul>
+                    Phase 2: Ongoing Distribution (Q1 2025 - Q4 2025)
+                  </strong>{" "}<br />
+                  <b>Community Staking Rewards (10%): </b><p className="text-xs"> Implement a staking mechanism to incentivize holding $TARS.
+                    Reward long-term holders with a portion of the token supply over time.</p> <br />
+                  <b>Tarsier Conservation Initiatives (10%): </b> <p className="text-xs">Begin allocating funds from the Tarsier Protection &
+                    Preservation Program to support on-the-ground conservation efforts, such as habitat restoration,
+                    research, and community education programs. </p><br />
+                  <b>Development & Integration Milestones (5%):</b><p className="text-xs">Release tokens as development milestones are achieved,
+                    ensuring the project progresses according to the roadmap. </p><br />
+                  <b>OG Role Rewards (7.5%): </b><p className="text-xs">Distribute tokens to those with OG roles, incentivizing early community
+                    involvement and support.</p><br />
                 </li>
-                <li>
-                  <strong className="text-[#dc228f]">Mining Rewards:</strong>{" "}
-                  Participants contribute computational resources to the network
-                  and are rewarded with $TARS tokens.
+                <li className="leading-normal">
+                  <strong className="text-[#dc228f]">
+                    Phase 3: Sustained Growth (Q1 2026 and beyond)
+                  </strong>{" "}<br />
+                  <b>Continued Community Rewards (10%):</b><p className="text-xs"> Continue community engagement initiatives to foster growth and
+                    reward participation. Explore additional reward mechanisms like NFT airdrops or special access to events.</p><br />
+                  <b>Tarsier Conservation Expansion (10%):</b><p className="text-xs">Expand conservation efforts with the remaining allocated funds,
+                    potentially partnering with other organizations or launching new initiatives.</p><br />
+                  <b>Development & Integration (5%): </b><p className="text-xs">Continue allocating tokens for ongoing development and integration efforts,
+                    ensuring the project remains innovative and relevant.</p><br />
+                  <b>OG Role Rewards (7.5%): </b><p className="text-xs">Vesting schedule for OG role rewards to incentivize long-term commitment to the project.</p><br />
+                  <b>Team Advisors (5%):</b><p className="text-xs">vesting schedule to ensure alignment with project's long-term success</p>
                 </li>
               </ul>
             </div>

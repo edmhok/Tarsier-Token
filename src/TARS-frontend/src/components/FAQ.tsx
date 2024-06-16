@@ -3,14 +3,6 @@ import { useState } from "react";
 export default function FAQ() {
   const [activeQuestion, setActiveQuestion] = useState<number | null>(null);
 
-  const preStyle = {
-    whiteSpace: "pre-wrap",
-    wordWrap: "break-word",
-    padding: "1rem",             // Add some padding (optional)
-    fontFamily: "monospace",      // Change the font (optional)
-    // ... other styles you want to apply
-  };
-
   const questionsAndAnswers = [
     {
       question: "Why should I buy TARS?",
@@ -87,17 +79,16 @@ export default function FAQ() {
       answer: (
         <div>
           Absolutely! $TARS is more than just a meme; it's a project with a unique blend of features that make it stand out in the crypto space:
-
           <ul>
             <li>
-              <b style={{ color: "#dc228f" }}>Tarsier Conservation:</b> We're deeply committed to the conservation of the Philippine Tarsier, an endangered primate
+              <b style={{ color: '#FFDB00' }}>Tarsier Conservation:</b> We're deeply committed to the conservation of the Philippine Tarsier, an endangered primate
               native to the Philippines. A portion of every transaction and proceeds from our NFTs goes directly to organizations working tirelessly to protect these adorable creatures and their habitat.
             </li>
             <li>
-              <b style={{ color: "#dc228f" }}>NFT Integration:</b> We're developing a collection of unique, Tarsier-themed NFTs. These NFTs will not only be fun and collectible, but they'll also offer special utility within the $TARS ecosystem, such as exclusive access to events, merchandise, or even potential staking rewards.
+              <b style={{ color: '#FFDB00' }}>NFT Integration:</b> We're developing a collection of unique, Tarsier-themed NFTs. These NFTs will not only be fun and collectible, but they'll also offer special utility within the $TARS ecosystem, such as exclusive access to events, merchandise, or even potential staking rewards.
             </li>
             <li>
-              <b style={{ color: "#dc228f" }}>ICP Ecosystem Integration:</b> $TARS is built on the Internet Computer Protocol (ICP), which offers fast, scalable, and
+              <b style={{ color: '#FFDB00' }}>ICP Ecosystem Integration:</b> $TARS is built on the Internet Computer Protocol (ICP), which offers fast, scalable, and
               eco-friendly transactions. We're actively exploring innovative ways to integrate $TARS with other projects and platforms within the ICP ecosystem.
             </li>
           </ul>
@@ -114,7 +105,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className="h-[40rem] flex flex-col justify-center items-center px-4">
+    <div className="flex flex-col justify-center items-center px-4 pt-[11rem] pb-[3rem]">
       <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl text-gray-100">
         Ask anything about{" "}
         <span className="text-[#dc228f] font-semibold">$TARS</span>

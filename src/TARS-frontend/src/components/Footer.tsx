@@ -2,15 +2,14 @@ import React from "react";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="relative h-80 flex items-center justify-center bg-cover bg-center text-center text-white px-4">
-      <div className="relative z-10">
-        <h2 className="text-3xl font-bold sm:text-5xl text-gray-300">
-          Join Our Socials
+    <footer className="flex-col items-center justify-center bg-cover bg-center text-center text-white px-4 py-5">
+      <div className=" py-[1rem]">
+        <h2 className="text-2xl font-bold sm:text-5xl text-gray-300">
+          Join Our Community
         </h2>
         <div className="flex items-center gap-4 w-full justify-center">
           {/* <a
@@ -61,8 +60,7 @@ const Footer: React.FC = () => {
             <div className=" flex flex-col items-center justify-center p-1">
               <FaSquareInstagram color="#dc228f" size={44} />
               <h1
-                className="md:font-bold text-sm md:text-lg
-   text-gray-300"
+                className="md:font-bold text-sm md:text-lg text-gray-300"
               >
                 Instagram
               </h1>
@@ -71,7 +69,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <p className="mt-2 absolute bottom-0 text-gray-500 text-sm mb-2">
+      <p className="my-4 text-gray-500 text-sm">
         All rights reserved by{" "}
         <a
           href="https://dashboard.internetcomputer.org/canister/"

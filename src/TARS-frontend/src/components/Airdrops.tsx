@@ -38,12 +38,12 @@ const Airdrops: React.FC = () => {
   });
 
   return (
-    <div className="bg-[#041c32] py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
-      <h1 className="text-4xl font-bold text-center text-[#dc228f] mb-8 font-rem">
+    <div className="bg-[#041c32] px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
+      <h1 className="text-4xl font-bold text-center text-[#dc228f] mb-8 font-rem pt-[6rem]">
         Airdrop Mechanism
       </h1>
       <TracingBeam>
-        <CardContainer containerClassName="my-10">
+        <CardContainer >
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -63,7 +63,7 @@ const Airdrops: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        <CardContainer containerClassName="my-10">
+        <CardContainer>
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -95,7 +95,7 @@ const Airdrops: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        <CardContainer containerClassName="my-10">
+        <CardContainer containerClassName="my-2">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -131,7 +131,7 @@ const Airdrops: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        <CardContainer containerClassName="my-10">
+        <CardContainer containerClassName="my-2">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -163,7 +163,7 @@ const Airdrops: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        <CardContainer containerClassName="my-10">
+        <CardContainer containerClassName="my-2">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -196,7 +196,7 @@ const Airdrops: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        <CardContainer containerClassName="my-10">
+        <CardContainer containerClassName="my-2">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -228,7 +228,7 @@ const Airdrops: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        <CardContainer containerClassName="my-10">
+        {/* <CardContainer containerClassName="my-10">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -260,18 +260,10 @@ const Airdrops: React.FC = () => {
               </ul>
             </CardItem>
           </CardBody>
-        </CardContainer>
+        </CardContainer> */}
       </TracingBeam>
 
-      <div className="flex justify-center items-center mt-20">
-        <animated.div style={TarsierAnimation} className="relative">
-          <img
-            src={TarsierImage}
-            alt="Tarsier"
-            className="w-64 h-64 md:w-80 md:h-80"
-          />
-        </animated.div>
-      </div>
+
     </div>
   );
 };
