@@ -1,11 +1,11 @@
 import React from "react";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../components/ui/tracing-beam";
-import icpImage from "../../assets/icp.png";
-import prelaunch from "../../assets/prelaunch.png";
-import launch from "../../assets/launch.jpg";
-import postLaunch from "../../assets/postlaunch.jpg";
-import finalImage from "../../assets/final.png";
+import icpImage from "../../assets/phase1.png";
+import prelaunch from "../../assets/phase2.png";
+import launch from "../../assets/phase3.png";
+import postLaunch from "../../assets/phase4.png";
+import finalImage from "../../assets/phase5.png";
 
 export default function Roadmap() {
   return (
@@ -17,7 +17,7 @@ export default function Roadmap() {
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             <h2
-              className={`rounded-full text-sm w-fit px-4 py-1 mb-4 font-rem ${item.badge === "Done" ? "bg-[#dc228f] text-black" : "bg-gray-700 text-white"}`}
+              className={`rounded-full text-sm w-fit px-4 py-1 mb-4 font-rem ${item.badge === "Done" ? "bg-[#dcc322] text-black" : "bg-gray-700 text-white"}`}
             >
               {item.badge}
             </h2>
@@ -47,20 +47,19 @@ export default function Roadmap() {
 
 const dummyContent = [
   {
-    title: "Phase 1: Concept and Immediate Development",
+    title: "Phase 1: Concept and Immediate Development (Q3 2024)",
     description: (
       <>
         <ul className="font-rem text-gray-300 leading-relaxed">
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Idea Finalization
+              Tarsier Token Creation:
             </span>{" "}
-            Finalize the concept of Tarsier Token as a meme and utility Token.
+            Develop the Tarsier Token smart contract on the ICP blockchain, adhering to ICP's ICRC-2 token standards
           </li>
           <li>
-            <span className="text-[#dc228f] font-semibold">Team Assembly</span>{" "}
-            Quickly assemble a small, agile team of developers, marketers, and
-            community managers.
+            <span className="text-[#dc228f] font-semibold">Branding and Identity:</span>{" "}
+            Design a captivating Tarsier-themed logo, website, and social media presence.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
@@ -71,54 +70,16 @@ const dummyContent = [
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Community Setup:
-            </span>{" "}
-            Create social media profiles on Twitter, Discord, and Telegram to
-            start building a community and generating buzz.
-          </li>
-          <li>
-            <span className="text-[#dc228f] font-semibold">
-              Technical Setup
-            </span>{" "}
-            Set up the development environment on the Internet Computer Protocol
-            (ICP).
-          </li>
-        </ul>
-      </>
-    ),
-    badge: "Done",
-    image: icpImage,
-  },
-  {
-    title: "Phase 2: Rapid Development & Pre-launch",
-    description: (
-      <>
-        <ul className="font-rem leading-relaxed text-gray-300 ">
-          <li>
-            <span className="text-[#dc228f] font-semibold">
               Smart Contract Development:
             </span>{" "}
             Develop and test the basic smart contracts for Tarsier Token.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Security Audit:
+              Community Setup:
             </span>{" "}
-            Conduct a basic security audit of the smart contracts.
-          </li>
-          <li>
-            <span className="text-[#dc228f] font-semibold">
-              Website Creation:
-            </span>{" "}
-            Launch a simple, attractive website with the white paper, roadmap,
-            and links to community platforms.
-          </li>
-          <li>
-            <span className="text-[#dc228f] font-semibold">
-              Initial Marketing Push:
-            </span>{" "}
-            Begin a rapid marketing campaign on social media to attract early
-            adopters and generate excitement.
+            Create social media profiles on Twitter, Discord, and Telegram to
+            start building a community and generating buzz.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
@@ -129,17 +90,53 @@ const dummyContent = [
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Partnerships Outreach:
+              Initial Token Distribution Setup:
             </span>{" "}
-            Start reaching out to local restaurants and food outlets to gauge
-            interest in accepting Tarsier Token.
+            Airdrop a portion of tokens to early supporters.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Legal Consultation:
+              Website Creation:
             </span>{" "}
-            Consult with legal experts to ensure compliance with relevant
-            regulations.
+            Launch a simple, attractive website with the white paper, roadmap,
+            and links to community platforms.
+          </li>
+        </ul>
+      </>
+    ),
+    badge: "Done",
+    image: icpImage,
+  },
+  {
+    title: "Phase 2: Launch and Awareness (Q4 2024)",
+    description: (
+      <>
+        <ul className="font-rem leading-relaxed text-gray-300 ">
+          <li>
+            <span className="text-[#dc228f] font-semibold">
+              Review Smart Contract Development:
+            </span>{" "}
+            Upgrade and test the smart contracts for Tarsier Token.
+          </li>
+          <li>
+            <span className="text-[#dc228f] font-semibold">
+              Security Audit:
+            </span>{" "}
+            Conduct a basic security audit of the smart contracts.
+          </li>
+          <li>
+            <span className="text-[#dc228f] font-semibold">
+              Initial Marketing Push:
+            </span>{" "}
+            Begin a rapid marketing campaign on social media to attract early
+            adopters and generate excitement.
+            Create engaging content (memes, videos, contests) around the Tarsier theme.
+          </li>
+          <li>
+            <span className="text-[#dc228f] font-semibold">
+              Partnerships Outreach:
+            </span>{" "}
+            Partner with influencers and crypto communities to spread the word.
           </li>
         </ul>
       </>
@@ -148,7 +145,7 @@ const dummyContent = [
     image: prelaunch,
   },
   {
-    title: "Phase 3: Launch & Immediate Adoption",
+    title: "Phase 3: Launch & Immediate Adoption (Q1 2025)",
     description: (
       <>
         <ul className="font-rem leading-relaxed text-gray-300 ">
@@ -181,17 +178,17 @@ const dummyContent = [
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Governance Setup:
+              NFT Integration:
             </span>{" "}
-            Introduce the initial governance framework, allowing token holders
-            to propose and vote on the next steps for Tarsier Token.
+            Explore launching Tarsier-themed NFTs (non-fungible tokens) that provide
+            holders with unique benefits or access to exclusive events.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Support Channels:
+              Staking and Rewards:
             </span>{" "}
-            Set up customer support channels for immediate post-launch user
-            assistance.
+            Implement a staking mechanism to incentivize holding Tarsier tokens
+            and reward long-term supporters.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
@@ -213,7 +210,7 @@ const dummyContent = [
     image: launch,
   },
   {
-    title: "Phase 4: Post-Launch Activities (Days 4-7)",
+    title: "Phase 4: Post-Launch Activities (Q2 2025)",
     description: (
       <>
         <ul className="text-gray-300 leading-relaxed font-rem">
@@ -223,11 +220,6 @@ const dummyContent = [
             </span>{" "}
             Intensify marketing efforts to maintain momentum and attract more
             users.
-          </li>
-          <li>
-            <span className="text-[#dc228f] font-semibold">User Feedback:</span>{" "}
-            Collect feedback from early users and merchants to identify and
-            address any immediate issues.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
@@ -245,10 +237,10 @@ const dummyContent = [
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Future Planning:
+              Charitable Initiatives:
             </span>{" "}
-            Begin planning the next phases of development, focusing on expanding
-            merchant acceptance and additional features.
+            Dedicate a portion of Tarsier Token proceeds to Philippine wildlife conservation efforts,
+            focusing on tarsier protection.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
@@ -265,48 +257,38 @@ const dummyContent = [
   },
 
   {
-    title: "Immediate Next Steps (Week 2 and Beyond)",
+    title: "Mainstream Recognition (Q3-Q4 2025 and Beyond)",
     description: (
       <>
         <ul className="text-gray-300 leading-relaxed font-rem">
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Expand Merchant Network:
+              Exchange Listings:
             </span>{" "}
-            Continue onboarding more restaurants and food outlets to accept
-            Tarsier Token.
+            Pursue listings on major centralized exchanges (CEXs) that support ICP to
+            increase liquidity and accessibility.
           </li>
           <li>
             <span className="text-[#dc228f] font-semibold">
-              Mobile App Development:
+              Global Community:
             </span>{" "}
-            Start developing a mobile wallet app for easier transactions.
+            Expand the Tarsier Token community globally, reaching crypto enthusiasts
+            beyond the ICP ecosystem.
           </li>
-          <li>
-            <span className="text-[#dc228f] font-semibold">
-              Advanced Governance:
-            </span>{" "}
-            Develop and implement more sophisticated governance mechanisms based
-            on community input.
-          </li>
-          <li>
-            <span className="text-[#dc228f] font-semibold">
-              Global Outreach:
-            </span>{" "}
-            Extend marketing efforts internationally to attract a global
-            audience of Tarsier lovers.
-          </li>
-          <li>
-            <span className="text-[#dc228f] font-semibold">Partnerships:</span>{" "}
-            Secure strategic partnerships with food delivery services and larger
-            restaurant chains.
-          </li>
+
           <li>
             <span className="text-[#dc228f] font-semibold">
               Sustainability Initiatives:
             </span>{" "}
             Implement initiatives to ensure long-term sustainability and
             environmental responsibility of the Tarsier Token network.
+          </li>
+          <li>
+            <span className="text-[#dc228f] font-semibold">
+              Continued Innovation:
+            </span>{" "}
+            Explore innovative features such as decentralized governance, community-driven proposals,
+            and additional utility for Tarsier Token.
           </li>
         </ul>
       </>

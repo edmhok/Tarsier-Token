@@ -1,6 +1,6 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import buy from "../../assets/about.png";
+import buy from "../../assets/about.svg";
 
 interface BuyProps {
   handleConnectWallet: () => void;
@@ -9,12 +9,12 @@ interface BuyProps {
 const Buy: React.FC<BuyProps> = ({ handleConnectWallet }) => {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="bg-gray-700 md:mx-0 mx-2 w-auto relative group/card hover:shadow-xl hover:shadow-[#dc228f] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gray-800 md:mx-0 mx-2 w-auto relative group/card hover:shadow-xl hover:shadow-[#f0d06f] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
           className="text-xl font-bold font-rem text-white"
         >
-          Join the <span className="text-[#dc228f]">$TARS MOVEMENT</span>
+          Join the <span className="text-[#dc228f]">TARS MEME Token</span>
         </CardItem>
         <CardItem
           as="p"

@@ -52,7 +52,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
   };
 
   return (
-    <div className="bg-[#0b1541] h-screen flex items-center justify-center mb-10">
+    <div className="h-screen flex items-center justify-center mb-20">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-4">
         <div className="w-full md:w-1/2 text-center md:text-left">
           <motion.div
@@ -67,14 +67,14 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
             </h1>
             <p className="text-xl mb-6 text-white leading-relaxed font-rem">
               The world's first meme token dedicated to tarsier protection
-              as the tiniest monkey in the world
+              as smallest monkey in the world
             </p>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
               <button
                 className="bg-[#dc228f] text-[#041c32] font-semibold text-lg font-rem md:text-xl hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] transition duration-300"
                 onClick={handleConnectWallet}
               >
-                Buy TARS
+                Buy $TARS
               </button>
               <a
                 href="https://icpex.org/wallet"
@@ -96,7 +96,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
           </animated.div>
         </div>
       </div>
-      <div className="absolute bottom-[-100px] opacity-[0.5] w-full -z-4 mt-5">
+      <div className="absolute bottom-[-120px] opacity-[0.5] w-full -z-4 mt-5">
         <motion.div
           className="slidingContainer"
           initial="active"

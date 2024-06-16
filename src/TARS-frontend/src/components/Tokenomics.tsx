@@ -7,15 +7,17 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
-import tarsierImage from "../../assets/tar.png";
+import tarsierImage from "../../assets/tartok.svg";
 
 const data = [
-  { name: "Early Contributors and Team", value: 812_612_612_612 },
-  { name: "Community Building and Rewards", value: 148_648_648_648 },
-  { name: "Development Fund", value: 89_189_189_189 },
+  { name: "Community Building and Rewards", value: 495000000000 },
+  { name: "Wildlife Conservation Program", value: 198000000000 },
+  { name: "OG Roles", value: 148000000000 },
+  { name: "Development and Integration", value: 99000000000 },
+  { name: "Team Advisors", value: 49000000000 },
 ];
 
-const COLORS = ["#AF47D2", "#3572EF", "#FC4100"];
+const COLORS = ["#AF47D2", "#3572EF", "#FC4100", "#9BEC00", "#FFBF00"];
 
 const renderCustomizedLabel = ({
   cx,
@@ -57,7 +59,7 @@ const Tokenomics: React.FC = () => {
         <div className="mt-10">
           <p className="mt-4 text-2xl text-[#dc228f] font-extrabold text-center font-rem">
             <strong className="text-white">Total Supply:</strong> 990 BILLION
-            $TARS
+            TARS
           </p>
         </div>
         <div className="mt-10">

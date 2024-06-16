@@ -1,24 +1,14 @@
 import React from "react";
 import { FaTelegram } from "react-icons/fa";
-import { HiChatAlt2 } from "react-icons/hi";
+import { FaDiscord } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
-import iconBg from "../../assets/tars-bckgnd.png";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
   return (
     <footer className="relative h-80 flex items-center justify-center bg-cover bg-center text-center text-white px-4">
-      {/* Pseudo-element for the background image */}
-      <div
-        className="absolute inset-0 bg-no-repeat bg-center bg-contain opacity-30"
-        style={{
-          backgroundImage: `url(${iconBg})`,
-          backgroundSize: "contain",
-        }}
-      ></div>
-      {/* Content of the footer */}
-      <div className="relative z-10 ">
+      <div className="relative z-10">
         <h2 className="text-3xl font-bold sm:text-5xl text-gray-300">
           Join Our Socials
         </h2>
@@ -53,13 +43,13 @@ const Footer: React.FC = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/company/Tarsier-Token/"
+            href="https://discord.gg/WHWVKzvW"
             target="_blank"
           >
             <div className=" flex flex-col items-center justify-center p-1">
-              <FaLinkedin color="#dc228f" size={44} />
+              <FaDiscord color="#dc228f" size={44} />
               <h1 className="md:font-bold text-sm md:text-lg text-gray-300">
-                Linkedin
+                Discord
               </h1>
             </div>
           </a>

@@ -23,7 +23,7 @@ const Features: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#041c32] py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
+    <div className="py-2 px-4 sm:px-3 lg:px-2 max-w-6xl mx-auto text-white">
       <motion.div
         initial="hidden"
         animate="visible"
@@ -54,7 +54,7 @@ const Features: React.FC = () => {
         >
           <motion.h2
             variants={fadeInUp}
-            className="text-3xl font-bold text-center text-[#dc228f] mb-8 font-rem"
+            className="text-3xl font-bold text-center text-[#dc228f] mb-2"
           >
             Core Features
           </motion.h2>
@@ -62,7 +62,7 @@ const Features: React.FC = () => {
             initial="hidden"
             animate="visible"
             variants={staggerContainer}
-            className="grid md:grid-cols-2 lg:grid-cols-3 gap-[9rem]"
+            className="grid md:grid-cols-2 lg:grid-cols-3 gap-[3rem]"
           >
             <motion.div variants={fadeInUp}>
               <CardContainer containerClassName="h-full">
@@ -71,7 +71,7 @@ const Features: React.FC = () => {
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
                   >
-                    Decentralized Governance
+                    Community-Driven
                   </CardItem>
                   <CardItem
                     translateZ={60}
@@ -80,8 +80,9 @@ const Features: React.FC = () => {
                     <span className="text-[#dc228f] font-bold font-rem">
                       Tarsier Token $TARS
                     </span>{" "}
-                    holders participate in decentralized governance through
-                    proposals and voting mechanisms on the Internet Computer.
+                    thrives on the passion and creativity of its community. We believe in the power
+                    of collective decision-making and will empower $TARS holders to shape the project's
+                    future through decentralized governance.
                   </CardItem>
                 </CardBody>
               </CardContainer>
@@ -94,7 +95,7 @@ const Features: React.FC = () => {
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
                   >
-                    Events Ticket
+                    Conservation-Focused:
                   </CardItem>
                   <CardItem
                     translateZ={60}
@@ -103,8 +104,8 @@ const Features: React.FC = () => {
                     <span className="text-[#dc228f] font-bold font-rem">
                       Tarsier Token $TARS
                     </span>{" "}
-                    holders participate in decentralized governance through
-                    events ticket mechanisms on the Internet Computer.
+                    is more than just a meme; it's a force for good. A portion of every transaction and proceeds from our NFT
+                    sales will be dedicated to protecting the Philippine Tarsier and its habitat.
                   </CardItem>
                 </CardBody>
               </CardContainer>
@@ -117,18 +118,18 @@ const Features: React.FC = () => {
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
                   >
-                    Scalability and Security
+                    ICP Ecosystem Integration:
                   </CardItem>
                   <CardItem
                     translateZ={60}
                     className="text-lg text-gray-300 font-rem"
                   >
-                    Leveraging the{" "}
+                    {" "}
                     <span className="text-[#dc228f] font-bold">
-                      Internet Computer's
+                      $TARS
                     </span>{" "}
-                    scalability and security features ensures efficient and
-                    secure token operations.
+                    is built on the Internet Computer Protocol (ICP), taking advantage of its speed, scalability, and eco-friendliness. We're committed to exploring
+                    innovative ways to integrate $TARS with other projects and platforms within the ICP ecosystem.
                   </CardItem>
                 </CardBody>
               </CardContainer>
@@ -141,17 +142,15 @@ const Features: React.FC = () => {
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
                   >
-                    Community Building and Adoption
+                    NFT Integration:
                   </CardItem>
                   <CardItem
                     translateZ={60}
                     className="text-lg text-gray-300 font-rem"
                   >
-                    Develop partnerships with restaurants and food outlets to
-                    accept{" "}
-                    <span className="text-[#dc228f] font-bold">$TARS TOKEN</span> as
-                    payment. Implement loyalty programs and incentives to
-                    encourage adoption and usage of Tarsier Token in the community.
+                    We're developing a collection of unique, Tarsier-themed NFTs that will not only be fun
+                    and collectible but also offer special utility within the {" "}
+                    <span className="text-[#dc228f] font-bold">$TARS</span>ecosystem.
                   </CardItem>
                 </CardBody>
               </CardContainer>
@@ -164,17 +163,51 @@ const Features: React.FC = () => {
                     translateZ={50}
                     className="text-2xl font-bold mb-4 text-white font-rem"
                   >
-                    Environmental Sustainability
+                    Transparency and Security:
                   </CardItem>
                   <CardItem
                     translateZ={60}
                     className="text-lg text-gray-300 font-rem"
                   >
-                    Explore eco-friendly practices for token operations on the{" "}
-                    <span className="text-[#dc228f] font-bold">
-                      Internet Computer
-                    </span>
-                    , aligning with sustainability initiatives.
+                    We prioritize transparency and security in all our operations. Our smart contracts will be audited by reputable firms to ensure the safety of your investments.
+                  </CardItem>
+                </CardBody>
+              </CardContainer>
+            </motion.div>
+            <motion.div variants={fadeInUp}>
+              <CardContainer containerClassName="h-full">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
+                  <CardItem
+                    translateZ={50}
+                    className="text-2xl font-bold mb-4 text-white font-rem"
+                  >
+                    Fun and Engaging:
+                  </CardItem>
+                  <CardItem
+                    translateZ={60}
+                    className="text-lg text-gray-300 font-rem"
+                  >
+                    <span className="text-[#dc228f] font-bold">$TARS</span>
+                    is all about fun! We believe in the power of memes to bring people together and create a vibrant, engaging community. Expect regular contests, giveaways, and other exciting events to keep the $TARS community buzzing.
+                  </CardItem>
+                </CardBody>
+              </CardContainer>
+            </motion.div>
+            <motion.div variants={fadeInUp}>
+              <CardContainer containerClassName="h-full">
+                <CardBody className="bg-gray-800 h-full rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
+                  <CardItem
+                    translateZ={50}
+                    className="text-2xl font-bold mb-4 text-white font-rem"
+                  >
+                    Growth Potential:
+                  </CardItem>
+                  <CardItem
+                    translateZ={60}
+                    className="text-lg text-gray-300 font-rem"
+                  >
+                    As the <span className="text-[#dc228f] font-bold">$TARS</span> community grows, so does the potential value of the token. With a strong
+                    foundation, exciting roadmap, and a dedicated community, <span className="text-[#dc228f] font-bold">$TARS</span> is poised for a bright future.
                   </CardItem>
                 </CardBody>
               </CardContainer>

@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../../assets/about.png";
+import aboutImage from "../../assets/about.svg";
 
 interface BuyProps {
   handleConnectWallet: () => void;
@@ -20,34 +20,37 @@ const About: React.FC<BuyProps> = ({ handleConnectWallet }) => {
               Our Story
             </h3>
             <p className="mt-4 text-lg text-gray-300 font-rem">
-              Tarsier Token began with a simple yet compelling idea: to unite Tarsier
-              enthusiasts worldwide through a unique cryptocurrency. As Tarsier
-              lovers for wildife, we recognized the need for a community where
-              people could share their love and concern for tiniest monkey known in the world,
-              that is one of the endangered species and can be found in the province of Bohol,
-              Philippines.
+              The Tarsier Token was born from a passion for the world's smallest primate
+              and a desire to connect fellow enthusiasts. As dedicated tarsier lovers and
+              advocates for wildlife conservation, we envisioned a global community where
+              individuals could unite to celebrate, protect, and learn about the all endangered
+              species like tarsiers which is native in the Philippines. This shared passion
+              inspired the creation of a unique cryptocurrency that empowers the community to
+              make a real difference in wildlife protection and conservation.
             </p>
             <h4 className="mt-6 text-xl font-semibold text-gray-500 font-rem">
               Development
             </h4>
             <p className="mt-2 text-lg text-gray-300 font-rem">
-              Our team comprises seasoned developers, blockchain experts, and
-              Tarsier aficionados. We leveraged the Internet Computer Protocol
-              (ICP) to build a secure, scalable, and decentralized platform that
-              would serve as the backbone of Tarsier Token. ICP's innovative
-              technology ensures that our transactions are fast, reliable, and
-              environmentally friendly.
+              Our team is a blend of experienced developers, blockchain specialists, and
+              passionate Tarsier advocates. We harnessed the power of the Internet Computer
+              (ICP) to construct a secure, scalable, and decentralized foundation
+              for the Tarsier Token. By utilizing ICP's cutting-edge technology, we guarantee
+              that our transactions are swift, reliable, and have an environmental
+              impact.
             </p>
             <h4 className="mt-6 text-xl font-semibold text-gray-500 font-rem">
               Vision
             </h4>
             <p className="mt-2 text-lg text-gray-300 font-rem">
-              We aim to become the go-to digital currency for all things Tarsier.
-              Whether you're wanna share Tarsier to represent the mandates of WildLife
-              Protection Program both local and international community.&nbsp;
-              Tarsier Token will be your currency of choice. Join us in celebrating the
-              cutiest way to save the species. Every meme, every trade, evert tarsier saved.
-              Share Tarsier Meme with Tarsier Token.
+              Our vision is for the Tarsier Token to become the leading digital currency
+              for anyone passionate about tarsiers. Whether you're sharing adorable tarsier
+              memes to support wildlife conservation efforts or engaging with local and
+              international communities dedicated to protecting these incredible creatures,
+              the Tarsier Token is your currency of choice. Together, we can celebrate and
+              safeguard these captivating primates in the cutest way possible. Every meme,
+              every trade, and every tarsier saved brings us closer to our goal. Share the
+              love for tarsiers, share the Tarsier Token, and let's make a meaningful impact!
             </p>
           </div>
         </div>
