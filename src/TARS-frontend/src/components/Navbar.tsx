@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-[#000000] text-white fixed w-full z-50">
+    <nav className="nav-background text-white fixed w-full z-50">
       {/* mobile menu */}
       <div
         className={`flex-col ${menu ? "flex" : "hidden"
@@ -130,7 +130,7 @@ const Navbar: React.FC = () => {
               <FaTwitter color="#dc228f" size={24} />
             </div>
           </a>
-          <a href="https://t.me/TarsierToken" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/+8mbNu3iI7-diMmU9" target="_blank" rel="noopener noreferrer">
             <div className="border-[1px] cursor-pointer border-[#dc228f] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
               <FaTelegram color="#dc228f" size={24} />
             </div>

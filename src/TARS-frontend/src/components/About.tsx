@@ -23,7 +23,7 @@ const About: React.FC<BuyProps> = ({ handleConnectWallet }) => {
               The Tarsier Token was born from a passion for the world's smallest primate
               and a desire to connect fellow enthusiasts. As dedicated tarsier lovers and
               advocates for wildlife conservation, we envisioned a global community where
-              individuals could unite to celebrate, protect, and learn about the all endangered
+              individuals could unite to celebrate, protect, and learn about endangered
               species like tarsiers which is native in the Philippines. This shared passion
               inspired the creation of a unique cryptocurrency that empowers the community to
               make a real difference in wildlife protection and conservation.

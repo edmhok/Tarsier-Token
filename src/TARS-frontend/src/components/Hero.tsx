@@ -1,7 +1,6 @@
 // ./src/components/Hero.jsx
-import React from "react";
 import { useSpring, animated } from "@react-spring/web";
-import { FaArrowDown } from "react-icons/fa";
+import ReactPlayer from 'react-player/youtube'
 import tars from "../../assets/images/hero.png";
 import useMedia from "../hooks/useMedia";
 import { motion } from "framer-motion";
@@ -81,12 +80,12 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
                 target="_blank"
                 className="bg-[#041c32] text-[#dc228f] text-center font-semibold text-lg font-rem md:text-xl hover:text-black py-2 px-4 rounded-lg hover:bg-[#dc228f] border-2 border-[#dc228f] transition duration-300"
               >
-                Swap on ICPex
+                Send $TARS
               </a>
             </div>
           </motion.div>
         </div>
-        <div className="w-full md:w-1/2 flex items-center justify-center relative">
+        {/* <div className="w-full md:w-1/2 flex items-center justify-center relative">
           <animated.div style={tarsAnimation} className="absolute top-0 z-10">
             <img
               src={tars}
@@ -94,9 +93,23 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
               className="w-64 h-64 md:w-80 md:h-80 md:z-10"
             />
           </animated.div>
+        </div> */}
+        {/* YouTube Player */}
+        <div className="md:absolute md:top-1/2 md:right-[10%] md:transform md:-translate-y-1/2">
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=ZVGeJfPOWC4"
+            width={isMobile ? "300px" : "450px"}
+            height={isMobile ? "200px" : "300px"}
+            controls={true}
+            light={true}
+            className="z-0"
+          />
         </div>
+
+
+
       </div>
-      <div className="absolute bottom-[-120px] opacity-[0.5] w-full -z-4 mt-5">
+      <div className="absolute bottom-[-120px] opacity-[0.5] w-full -z-4 mt-6">
         <motion.div
           className="slidingContainer"
           initial="active"
@@ -105,6 +118,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
           <img src={tarBack} alt="backgrnd" />
         </motion.div>
       </div>
+
     </div>
   );
 };

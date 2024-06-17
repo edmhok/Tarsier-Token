@@ -7,8 +7,8 @@ import { FaSquareInstagram } from "react-icons/fa6";
 const Footer: React.FC = () => {
   return (
     <footer className="flex-col items-center justify-center bg-cover bg-center text-center text-white px-4 py-5">
-      <div className=" py-[1rem]">
-        <h2 className="text-2xl font-bold sm:text-5xl text-gray-300">
+      <div className=" py-[2rem]">
+        <h2 className="text-xl font-bold sm:text-5xl text-gray-300">
           Join Our Community
         </h2>
         <div className="flex items-center gap-4 w-full justify-center">
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             </div>
           </a>
 
-          <a href="https://t.me/tarsiertoken" target="_blank">
+          <a href="https://t.me/+8mbNu3iI7-diMmU9" target="_blank">
             <div className=" flex flex-col items-center justify-center p-1">
               <FaTelegram color="#dc228f" size={44} />
               <h1 className="md:font-bold text-sm md:text-lg text-gray-300">

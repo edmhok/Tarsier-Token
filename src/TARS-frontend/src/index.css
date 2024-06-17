@@ -6,3 +6,11 @@
 body: {
   font-family: "REM", sans-serif;
 }
+
+.background {
+  background-image: linear-gradient(to top, #240750, #1f2544, #11235a);
+}
+
+.nav-background {
+  background-image: linear-gradient(to top, #11235a, #000000);
+}
