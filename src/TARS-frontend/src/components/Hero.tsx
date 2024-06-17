@@ -60,7 +60,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
             initial="initial"
             animate="animate"
           >
-            <h1 className="mt-[5rem] text-3xl md:text-5xl font-semibold mb-4 text-white font-rem">
+            <h1 className="mt-[7rem] text-3xl md:text-5xl font-semibold mb-4 text-white font-rem">
               <span className="text-[#dc228f] text5xl font-bold">$TARS: </span>
               Join the Wildlife Conservation with Tarsier Token
             </h1>

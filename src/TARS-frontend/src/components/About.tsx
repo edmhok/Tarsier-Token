@@ -16,7 +16,7 @@ const About: React.FC<BuyProps> = ({ handleConnectWallet }) => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 pr-8">
           <div className="mt-10">
-            <h3 className="text-2xl font-bold text-gray-500 font-rem">
+            <h3 className="text-2xl font-bold text-[#FFDB00] font-rem">
               Our Story
             </h3>
             <p className="mt-4 text-lg text-gray-300 font-rem">
@@ -28,7 +28,7 @@ const About: React.FC<BuyProps> = ({ handleConnectWallet }) => {
               inspired the creation of a unique cryptocurrency that empowers the community to
               make a real difference in wildlife protection and conservation.
             </p>
-            <h4 className="mt-6 text-xl font-semibold text-gray-500 font-rem">
+            <h4 className="mt-6 text-xl font-semibold text-[#FFDB00] font-rem">
               Development
             </h4>
             <p className="mt-2 text-lg text-gray-300 font-rem">
@@ -39,7 +39,7 @@ const About: React.FC<BuyProps> = ({ handleConnectWallet }) => {
               that our transactions are swift, reliable, and have an environmental
               impact.
             </p>
-            <h4 className="mt-6 text-xl font-semibold text-gray-500 font-rem">
+            <h4 className="mt-6 text-xl font-semibold text-[#FFDB00] font-rem">
               Vision
             </h4>
             <p className="mt-2 text-lg text-gray-300 font-rem">

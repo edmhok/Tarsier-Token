@@ -16,12 +16,12 @@ const Whitepaper: React.FC = () => {
   });
 
   return (
-    <div className="bg-[#041c32] py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
+    <div className="py-20 px-4 pt-[8rem] sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
       <h1 className="text-4xl font-bold text-center text-[#dc228f] mb-8">
         Tarsier Token White Paper
       </h1>
       <TracingBeam>
-        <CardContainer containerClassName="my-10">
+        <CardContainer containerClassName="py-5">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-8 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -58,7 +58,7 @@ const Whitepaper: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        <CardContainer containerClassName="my-10">
+        <CardContainer containerClassName="py-10">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -84,7 +84,27 @@ const Whitepaper: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        <CardContainer containerClassName="my-10">
+        <CardContainer containerClassName="py-10 justify-start">
+          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
+            <CardItem
+              translateZ={50}
+              className="text-2xl font-bold mb-4 text-white font-rem"
+            >
+              Instruction
+            </CardItem>
+            <CardItem
+              translateZ={60}
+              className="text-lg text-gray-300 font-rem"
+            >
+              To add TAR Token to your Plug-Wallet :
+              <br />
+              Canister ID :  i5xtb-aaaaa-aaaam-acrja-cai <br />
+              Token Standard : ICRC-2
+            </CardItem>
+          </CardBody>
+        </CardContainer>
+
+        <CardContainer containerClassName="py-10">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-[50px] border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -230,79 +250,6 @@ const Whitepaper: React.FC = () => {
           </CardBody>
         </CardContainer>
 
-        {/* <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-[50px] border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
-            <CardItem
-              translateZ={50}
-              className="text-2xl font-bold mb-4 text-white font-rem"
-            >
-               Features
-            </CardItem>
-            <CardItem
-              translateZ={60}
-              className="text-lg text-gray-300 font-rem"
-            >
-              <ul className="list-disc list-inside mt-4 font-rem">
-                <li>
-                  <strong className="text-[#dc228f]">
-                    Decentralized Governance:
-                  </strong>{" "}
-                  TARS holders participate in decentralized governance through
-                  proposals and voting mechanisms on the Internet Computer.
-                </li>
-                <li>
-                  <strong className="text-[#dc228f]">
-                    Scalability and Security:
-                  </strong>{" "}
-                  Leveraging the Internet Computer's scalability and security
-                  features ensures efficient and secure token operations.
-                </li>
-                <li>
-                  <strong className="text-[#dc228f]">
-                    Community Building and Adoption:
-                  </strong>{" "}
-                  Develop partnerships with WildLife Conservation and Natural Resources Program to
-                  accept TARS as payment for any events and donation. Implement loyalty programs and
-                  incentives to encourage adoption and usage of TARS (Tarsier Token) in
-                  the community.
-                </li>
-                <li>
-                  <strong className="text-[#dc228f]">
-                    Environmental Sustainability:
-                  </strong>{" "}
-                  Explore eco-friendly practices for token operations on the
-                  Internet Computer, aligning with sustainability initiatives.
-                </li>
-              </ul>
-            </CardItem>
-          </CardBody>
-        </CardContainer>
-
-        <CardContainer containerClassName="my-10">
-          <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-6 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
-            <CardItem
-              translateZ={50}
-              className="text-2xl font-bold mb-4 text-white font-rem"
-            >
-              5. Governance and Implementation
-            </CardItem>
-            <CardItem
-              translateZ={60}
-              className="text-lg text-gray-300 font-rem"
-            >
-              <strong className="text-[#dc228f]">
-                Decentralized Governance:
-              </strong>{" "}
-              Proposals are submitted and voted on by TARS holders using the
-              Internet Computer's governance mechanism.
-              <br />
-              <br />
-              <strong className="text-[#dc228f]">Implementation:</strong>{" "}
-              Approved proposals are implemented through smart contracts on the
-              Internet Computer, ensuring transparency and efficiency.
-            </CardItem>
-          </CardBody>
-        </CardContainer> */}
       </TracingBeam>
     </div>
   );

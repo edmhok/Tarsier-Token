@@ -123,16 +123,16 @@ const DeveloperDocs: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col bg-[#041c32] text-white min-h-screen overflow-x-hidden">
-      <div className="bg-gray-900 p-4 w-full overflow-x-hidden">
+    <div className="flex flex-col pt-[7rem] text-white min-h-screen overflow-x-hidden">
+      <div className="bg-gray-800 p-4 w-full overflow-x-hidden">
         <h2 className="text-xl font-bold mb-4 font-rem">Developer Docs</h2>
         <ul className="flex flex-col md:flex-row md:space-x-4 font-rem">
           {sections.map((section) => (
             <li
               key={section}
               className={`cursor-pointer mb-2 md:mb-0 p-2 rounded ${activeSection === section
-                ? "bg-gray-700"
-                : "bg-gray-800 hover:bg-gray-700"
+                ? "bg-gray-600"
+                : "bg-gray-700 hover:bg-gray-700"
                 }`}
               onClick={() => setActiveSection(section)}
             >

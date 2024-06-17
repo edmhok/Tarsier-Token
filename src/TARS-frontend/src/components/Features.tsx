@@ -23,7 +23,7 @@ const Features: React.FC = () => {
   };
 
   return (
-    <div className="py-2 px-4 sm:px-3 lg:px-2 max-w-6xl mx-auto text-white">
+    <div className="py-2 px-4 pt-[6rem] sm:px-3 lg:px-2 max-w-6xl mx-auto text-white">
       <motion.div
         initial="hidden"
         animate="visible"

@@ -31,7 +31,7 @@ const Airdrops: React.FC = () => {
   // }, []);
 
   return (
-    <div className="bg-[#041c32] px-4 py-7 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
+    <div className="px-4 py-7 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
       <h1 className="text-4xl font-bold text-center text-[#dc228f] mb-8 font-rem pt-[6rem]">
         Airdrop Mechanism
       </h1>
