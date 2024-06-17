@@ -1,5 +1,5 @@
 // src/utils/nfidWallet.ts
-import { AuthClient } from '@dfinity/auth-client';
+import { AuthClient } from "@dfinity/auth-client";
 
 export const connectNFIDWallet = async (): Promise<string | null> => {
   try {
@@ -35,7 +35,7 @@ export const isNFIDWalletConnected = async (): Promise<boolean> => {
     const authClient = await AuthClient.create();
     return await authClient.isAuthenticated();
   } catch (error) {
-    console.error('Error checking NFID wallet connection:', error);
+    console.error("Error checking NFID wallet connection:", error);
     return false;
   }
 };
@@ -45,6 +45,6 @@ export const disconnectNFIDWallet = async (): Promise<void> => {
     const authClient = await AuthClient.create();
     await authClient.logout();
   } catch (error) {
-    console.error('Error disconnecting from NFID wallet:', error);
+    console.error("Error disconnecting from NFID wallet:", error);
   }
 };

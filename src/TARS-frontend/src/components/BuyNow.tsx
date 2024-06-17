@@ -14,7 +14,7 @@ const Buy: React.FC<BuyProps> = ({ handleConnectWallet }) => {
           translateZ="50"
           className="text-xl font-bold font-rem text-white"
         >
-          Join the <span className="text-[#dc228f]">TARS MEME Token</span>
+          Join the <span className="text-[#dc228f]">TARSIER MEME Token</span>
         </CardItem>
         <CardItem
           as="p"
@@ -38,14 +38,14 @@ const Buy: React.FC<BuyProps> = ({ handleConnectWallet }) => {
             href="https://x.com/tarsierian"
             target="__blank"
             onClick={handleConnectWallet}
-            className="px-4 py-2 rounded-xl text-xs font-normal text-white cursor-pointer"
+            className="px-4 py-2 rounded-xl text-sm font-normal text-white cursor-pointer"
           >
             Connect Wallet →
           </CardItem>
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-[#dc228f] text-black text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-[#dc228f] text-black text-sm font-bold"
           >
             <a
               href="https://app.icpswap.com/swap?input=ryjl3-tyaaa-aaaaa-aaaba-cai&output=i5xtb-aaaaa-aaaam-acrja-cai"

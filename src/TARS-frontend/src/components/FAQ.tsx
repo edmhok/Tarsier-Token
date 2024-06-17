@@ -44,10 +44,10 @@ export default function FAQ() {
       question: "What is the utility of $Tarsier Token?",
       answer: (
         <div>
-          $Tarsier is not just a cute face in the meme world; it's also got a ton of utility planned to make it a valuable asset in the ICP ecosystem. Here's a sneak peek at what's in store:
+          $TARS is not just a cute face in the meme world; it's also got a ton of utility planned to make it a valuable asset in the ICP ecosystem. Here's a sneak peek at what's in store:
           <br /><br />
 
-          * **Staking Rewards:** Hold on to your $TARS, and you'll be rewarded! We're developing a staking program that will allow you to earn more $TARS simply by holding the token in your wallet.
+          **Staking Rewards:** Hold on to your $TARS, and you'll be rewarded! We're developing a staking program that will allow you to earn more $TARS simply by holding the token in your wallet.
           <br />
           * **Exclusive NFTs:**  Get ready to collect unique, Tarsier-themed NFTs that could unlock special perks, access to events, or even have value in the NFT marketplace.
           <br />

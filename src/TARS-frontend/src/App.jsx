@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -14,6 +14,7 @@ import Whitepaper from "./components/Whitepaper";
 import Airdrops from "./components/Airdrops";
 import Features from "./components/Features";
 import DeveloperDocs from "./components/DeveloperDocs";
+
 
 function App() {
   const [greeting, setGreeting] = useState("");

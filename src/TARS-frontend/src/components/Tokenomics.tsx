@@ -53,7 +53,7 @@ const Tokenomics: React.FC = () => {
   return (
     <div className=" py-20 px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-[#dc228f] text-center font-rem">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-[#dc228f] text-center font-rem">
           Tokenomics
         </h2>
         <div className="mt-10">
@@ -67,8 +67,8 @@ const Tokenomics: React.FC = () => {
             Initial Distribution
           </h3>
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="w-full md:w-1/2">
-              <ResponsiveContainer width="100%" height={400}>
+            <div className="w-full md:w-1/2" >
+              <ResponsiveContainer width="100%" height={500}>
                 <PieChart>
                   <Pie
                     data={data}
@@ -144,7 +144,7 @@ const Tokenomics: React.FC = () => {
         <img
           src={tarsierImage}
           alt="sauce image"
-          className="md:w-40 h-auto w-20"
+          className="md:w-[13rem] h-auto w-[6rem]"
         />
       </div>
     </div>

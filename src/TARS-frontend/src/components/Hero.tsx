@@ -60,7 +60,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
             initial="initial"
             animate="animate"
           >
-            <h1 className="text-5xl font-semibold mb-4 text-white font-rem">
+            <h1 className="mt-[5rem] text-3xl md:text-5xl font-semibold mb-4 text-white font-rem">
               <span className="text-[#dc228f] text5xl font-bold">$TARS: </span>
               Join the Wildlife Conservation with Tarsier Token
             </h1>
@@ -68,7 +68,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
               The world's first meme token dedicated to tarsier protection
               as smallest monkey in the world
             </p>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mb-[2rem]">
               <button
                 className="bg-[#dc228f] text-[#041c32] font-semibold text-lg font-rem md:text-xl hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] transition duration-300"
                 onClick={handleConnectWallet}
@@ -85,15 +85,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
             </div>
           </motion.div>
         </div>
-        {/* <div className="w-full md:w-1/2 flex items-center justify-center relative">
-          <animated.div style={tarsAnimation} className="absolute top-0 z-10">
-            <img
-              src={tars}
-              alt="Tarsier"
-              className="w-64 h-64 md:w-80 md:h-80 md:z-10"
-            />
-          </animated.div>
-        </div> */}
+
         {/* YouTube Player */}
         <div className="md:absolute md:top-1/2 md:right-[10%] md:transform md:-translate-y-1/2">
           <ReactPlayer
@@ -109,7 +101,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
 
 
       </div>
-      <div className="absolute bottom-[-120px] opacity-[0.5] w-full -z-4 mt-6">
+      <div className="absolute bottom-[-130px] opacity-[0.5] w-full -z-5 mt-6">
         <motion.div
           className="slidingContainer"
           initial="active"

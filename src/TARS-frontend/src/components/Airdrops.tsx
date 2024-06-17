@@ -172,9 +172,8 @@ const Airdrops: React.FC = () => {
                   member who make using Tarsier.
                 </li>
                 <li>
-                  Collaborate with influencers and content creators in the food
-                  and crypto space. Conduct joint giveaways and Air Drops
-                  through their platforms to reach a broader audience.
+                  Collaborate with influencers and content creators in the crypto space.
+                  Conduct joint giveaways and Air Drops through their platforms to reach a broader audience.
                 </li>
                 <li>
                   Organize live events and AMA (Ask Me Anything) sessions with
@@ -221,7 +220,8 @@ const Airdrops: React.FC = () => {
 
         {/* Zealy Link - Style as needed */}
         <div className="text-center mt-8 p-2">
-          <a href={zealyCommunityLink} className="bg-[#dc228f] text-[#041c32] font-semibold text-lg font-rem md:text-xl hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] transition duration-300">
+          <h2 className="pb-4">What are you waiting for?</h2>
+          <a href={zealyCommunityLink} className="bg-[#dc228f] text-[#041c32] font-semibold text-xl font-rem md:text-xl hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] transition duration-300">
             Join Our Zealy Community!
           </a>
         </div>

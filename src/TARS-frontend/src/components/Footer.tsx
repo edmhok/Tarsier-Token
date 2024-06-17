@@ -5,6 +5,8 @@ import { FaTwitter } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
+  const zealyCommunityLink = "https://zealy.io/cw/tarstarsieriancommunity/questboard?invitationId=nmGKCJg_AtjxNQHYKbUQ_";
+
   return (
     <footer className="flex-col items-center justify-center bg-cover bg-center text-center text-white px-4 py-5">
       <div className=" py-[2rem]">
@@ -68,11 +70,19 @@ const Footer: React.FC = () => {
           </a>
         </div>
       </div>
-
+      {/* Zealy Link - Style as needed */}
+      <div className="text-center p-2">
+        <a href={zealyCommunityLink} className="bg-[#dc228f] text-[#041c32] font-semibold text-md font-rem md:text-sm hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] transition duration-300">
+          Join Our Zealy Community!
+        </a>
+      </div>
+      <p className="my-4 text-gray-500 text-sm">
+        Email Us: tarsierian@gmail.com
+      </p>
       <p className="my-4 text-gray-500 text-sm">
         All rights reserved by{" "}
         <a
-          href="https://dashboard.internetcomputer.org/canister/"
+          href="https://dashboard.internetcomputer.org/canister/i5xtb-aaaaa-aaaam-acrja-cai "
           className="text-[#dc228f] font-bold"
         >
           $TARS
