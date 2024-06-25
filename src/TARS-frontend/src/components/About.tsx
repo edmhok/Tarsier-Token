@@ -1,11 +1,8 @@
 import React from "react";
 import aboutImage from "../../assets/about.svg";
 
-interface BuyProps {
-  handleConnectWallet: () => void;
-}
 
-const About: React.FC<BuyProps> = ({ handleConnectWallet }) => {
+const About: React.FC = () => {
   return (
     <div className="py-20 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl font-bold text-[#fff] text-center font-rem">
@@ -59,6 +56,7 @@ const About: React.FC<BuyProps> = ({ handleConnectWallet }) => {
         </div>
       </div>
     </div>
+
   );
 };
 

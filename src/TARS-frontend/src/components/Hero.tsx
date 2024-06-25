@@ -1,7 +1,6 @@
 // ./src/components/Hero.jsx
 import { useSpring, animated } from "@react-spring/web";
 import ReactPlayer from 'react-player/youtube'
-import tars from "../../assets/images/hero.png";
 import useMedia from "../hooks/useMedia";
 import { motion } from "framer-motion";
 import tarBack from "../../assets/tars-bckgnd.png";
@@ -36,19 +35,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
     },
 
   };
-  const sliderVariants = {
-    initial: {
-      x: 500,
-    },
-    animate: {
-      x: "-500%",
-      transition: {
-        repeat: Infinity,
-        repeatType: "mirror",
-        duration: 20,
-      },
-    },
-  };
+
 
   return (
     <div className="h-screen flex items-center justify-center mb-20">
@@ -60,7 +47,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
             initial="initial"
             animate="animate"
           >
-            <h1 className="mt-[7rem] text-3xl md:text-5xl font-semibold mb-4 text-white font-rem">
+            <h1 className="mt-[8rem] text-3xl md:text-5xl font-semibold mb-4 text-white font-rem">
               <span className="text-[#dc228f] text5xl font-bold">$TARS: </span>
               Join the Wildlife Conservation with Tarsier Token
             </h1>
@@ -80,7 +67,7 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
                 target="_blank"
                 className="bg-[#041c32] text-[#dc228f] text-center font-semibold text-lg font-rem md:text-xl hover:text-black py-2 px-4 rounded-lg hover:bg-[#dc228f] border-2 border-[#dc228f] transition duration-300"
               >
-                Send $TARS
+                Swap $TARS
               </a>
             </div>
           </motion.div>
@@ -94,21 +81,13 @@ const Hero = ({ handleConnectWallet }: HeroProps) => {
             height={isMobile ? "200px" : "300px"}
             controls={true}
             light={true}
-            className="z-0"
+            className="z-0 hover:shadow-2xl hover:shadow-[#dc228f]"
           />
         </div>
 
-
-
       </div>
-      <div className="absolute bottom-[-130px] opacity-[0.5] w-full -z-5 mt-6">
-        <motion.div
-          className="slidingContainer"
-          initial="active"
-          animate="animate"
-        >
-          <img src={tarBack} alt="backgrnd" />
-        </motion.div>
+      <div className="absolute bottom-[-240px] opacity-[0.2] w-full -z-6">
+        <img src={tarBack} alt="backgrnd" />
       </div>
 
     </div>

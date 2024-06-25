@@ -1,8 +1,7 @@
 import React from "react";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
   const zealyCommunityLink = "https://zealy.io/cw/tarstarsieriancommunity/questboard?invitationId=nmGKCJg_AtjxNQHYKbUQ_";
@@ -11,7 +10,7 @@ const Footer: React.FC = () => {
     <footer className="flex-col items-center justify-center bg-cover bg-center text-center text-white px-4 py-5">
       <div className=" py-[2rem]">
         <h2 className="text-xl font-bold sm:text-5xl text-gray-300">
-          Join Our Community
+          Our Community
         </h2>
         <div className="flex items-center gap-4 w-full justify-center">
           {/* <a
@@ -25,9 +24,9 @@ const Footer: React.FC = () => {
               </h1>
             </div>
           </a> */}
-          <a href="https://x.com/Tarsierian" target="_blank">
+          <a href="https://x.com/tarsians" target="_blank">
             <div className=" flex flex-col items-center justify-center p-1">
-              <FaTwitter color="#dc228f" size={44} />
+              <FaXTwitter color="#dc228f" size={44} />
               <h1 className="md:font-bold text-sm md:text-lg text-gray-300">
                 Twitter(X)
               </h1>
@@ -44,7 +43,7 @@ const Footer: React.FC = () => {
           </a>
 
           <a
-            href="https://discord.gg/WHWVKzvW"
+            href="https://discord.com/invite/V3cJtysw"
             target="_blank"
           >
             <div className=" flex flex-col items-center justify-center p-1">
@@ -55,7 +54,7 @@ const Footer: React.FC = () => {
             </div>
           </a>
 
-          <a
+          {/* <a
             href="https://www.instagram.com/tarsierian"
             target="_blank"
           >
@@ -67,7 +66,7 @@ const Footer: React.FC = () => {
                 Instagram
               </h1>
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
       {/* Zealy Link - Style as needed */}

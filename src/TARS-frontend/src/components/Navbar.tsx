@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
-import { FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { Link, useNavigate } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import { motion } from "framer-motion";
@@ -117,7 +118,7 @@ const Navbar: React.FC = () => {
 
         <div className="flex items-center gap-2 w-full justify-end">
           <a
-            href="https://discord.gg/WHWVKzvW"
+            href="https://discord.com/invite/V3cJtysw"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -125,9 +126,9 @@ const Navbar: React.FC = () => {
               <FaDiscord color="#dc228f" size={24} />
             </div>
           </a>
-          <a href="https://x.com/tarsierian" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/tarsians" target="_blank" rel="noopener noreferrer">
             <div className="border-[1px] border-[#dc228f] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
-              <FaTwitter color="#dc228f" size={24} />
+              <FaXTwitter color="#dc228f" size={24} />
             </div>
           </a>
           <a href="https://t.me/+8mbNu3iI7-diMmU9" target="_blank" rel="noopener noreferrer">

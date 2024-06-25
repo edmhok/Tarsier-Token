@@ -1,34 +1,11 @@
-// ./src/components/Airdrops.tsx
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { CardContainer, CardBody, CardItem } from "./ui/3d-card";
 import { TracingBeam } from "./ui/tracing-beam";
-import useMedia from "../hooks/useMedia";
 
 const Airdrops: React.FC = () => {
-  const isMobile = useMedia("(max-width: 768px)");
-  const translateYValue = isMobile ? "0%" : "-50%";
-  const [airdropUsers, setAirdropUsers] = useState([]);
-  const [loading, setLoading] = useState(true);
-
   const zealyCommunityLink = "https://zealy.io/cw/tarstarsieriancommunity/questboard?invitationId=nmGKCJg_AtjxNQHYKbUQ_";
 
-  // useEffect(() => {
-  //   // Fetch airdrop users data from the backend
-  //   const fetchAirdropUsers = async () => {
-  //     try {
-  //       const response = await fetch("/api/airdrop-users");
-  //       const data = await response.json();
-  //       setAirdropUsers(data);
-  //       setLoading(false);
-  //     } catch (error) {
-  //       console.error("Error fetching airdrop users:", error);
-  //       setLoading(false);
-  //     }
-  //   };
-
-  //   fetchAirdropUsers();
-  // }, []);
 
   return (
     <div className="px-4 py-7 sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">

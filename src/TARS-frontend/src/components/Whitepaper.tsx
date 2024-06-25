@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
 import { CardContainer, CardBody, CardItem } from "./ui/3d-card";
 import { TracingBeam } from "./ui/tracing-beam";
 import useMedia from "../hooks/useMedia";
 
+
 const Whitepaper: React.FC = () => {
   const isMobile = useMedia("(max-width: 768px)");
   const translateYValue = isMobile ? "0%" : "-50%";
+  const [showDownloadButton, setShowDownloadButton] = useState(false);
 
   const whitepaperAnimation = useSpring({
     from: { transform: "translateY(-300%)" },
@@ -15,13 +17,23 @@ const Whitepaper: React.FC = () => {
     reset: true,
   });
 
+  // Function to handle file download
+  const downloadWhitepaper = () => {
+    const link = document.createElement("a");
+    link.href = "../../assets/TARS_Pitchdeck.pdf";
+    link.download = "Tarsier_Token_Pitchdeck.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="py-20 px-4 pt-[8rem] sm:px-6 lg:px-8 max-w-6xl mx-auto text-white">
       <h1 className="text-4xl font-bold text-center text-[#dc228f] mb-8">
         Tarsier Token White Paper
       </h1>
       <TracingBeam>
-        <CardContainer containerClassName="py-5">
+        <CardContainer containerClassName="py-[8rem]">
           <CardBody className="bg-gray-800 w-full h-auto rounded-xl p-8 border border-gray-700 hover:shadow-xl hover:shadow-[#dc228f] transition-shadow duration-300">
             <CardItem
               translateZ={50}
@@ -249,6 +261,28 @@ const Whitepaper: React.FC = () => {
             </CardItem>
           </CardBody>
         </CardContainer>
+        <div className="text-center mt-8 p-2">
+          <h2 className="pb-4">What are you waiting for?</h2>
+          {/* Button to trigger download, conditionally rendered */}
+          {showDownloadButton && (
+            <button
+              onClick={downloadWhitepaper}
+              className="bg-[#dc228f] text-[#041c32] font-semibold text-xl font-rem md:text-xl hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] transition duration-300"
+            >
+              Download TARS PitchDeck
+            </button>
+          )}
+
+          {/* Button to reveal the download button */}
+          {!showDownloadButton && (
+            <button
+              onClick={() => setShowDownloadButton(true)}
+              className="bg-[#dc228f] text-[#041c32] font-semibold text-xl font-rem md:text-xl hover:text-white py-2 px-4 rounded-lg hover:bg-transparent border-2 border-[#dc228f] transition duration-300"
+            >
+              Reveal PitchDeck
+            </button>
+          )}
+        </div>
 
       </TracingBeam>
     </div>

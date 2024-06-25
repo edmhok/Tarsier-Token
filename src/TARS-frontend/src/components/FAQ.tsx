@@ -107,7 +107,7 @@ export default function FAQ() {
   return (
     <div className="flex flex-col justify-center items-center px-4 pt-[11rem] pb-[3rem]">
       <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl text-gray-100">
-        Ask anything about{" "}
+        Frequently Ask Question on{" "}
         <span className="text-[#dc228f] font-semibold">$TARS</span>
       </h2>
 
