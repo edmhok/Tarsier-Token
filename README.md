@@ -1,7 +1,7 @@
 # Tarsier Token ($TARS)
 
 [![GitHub license](https://img.shields.io/github/license/edmhok/tarsier-token)](https://github.com/edmhok/tarsier-token/blob/main/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/YOUR_TWITTER_HANDLE?style=social)](https://twitter.com/YOUR_TWITTER_HANDLE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/YOUR_TWITTER_HANDLE?style=social)](https://x.com/tarsians)
 
 Welcome to the official GitHub repository for the Tarsier Token ($TARS), the meme token with a mission to protect the Philippine Tarsier and its habitat!
 
