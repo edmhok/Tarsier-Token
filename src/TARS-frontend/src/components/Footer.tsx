@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaFacebook } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
   const zealyCommunityLink = "https://zealy.io/cw/tarstarsieriancommunity/questboard?invitationId=nmGKCJg_AtjxNQHYKbUQ_";
@@ -54,19 +54,19 @@ const Footer: React.FC = () => {
             </div>
           </a>
 
-          {/* <a
-            href="https://www.instagram.com/tarsierian"
+          <a
+            href="https://www.facebook.com/people/Tarsian-MEME-Community/61561461512943/"
             target="_blank"
           >
             <div className=" flex flex-col items-center justify-center p-1">
-              <FaSquareInstagram color="#dc228f" size={44} />
+              <FaFacebook color="#dc228f" size={44} />
               <h1
                 className="md:font-bold text-sm md:text-lg text-gray-300"
               >
-                Instagram
+                Facebook
               </h1>
             </div>
-          </a> */}
+          </a>
         </div>
       </div>
       {/* Zealy Link - Style as needed */}

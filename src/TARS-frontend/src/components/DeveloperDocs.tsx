@@ -26,6 +26,7 @@ const sections = [
     "Getting Started",
     "API Reference",
     "Smart Contract Development",
+    "Visit ReadMe"
 ] as const;
 
 type Section = (typeof sections)[number];
@@ -111,6 +112,13 @@ const sectionContent: Record<Section, JSX.Element> = {
             <CodeBlock
                 code={`use ic_cdk::export::candid::CandidType;\nuse serde::Deserialize;\n\n#[derive(CandidType, Deserialize)]\nstruct TransferArgs {\n    to: String,\n    amount: u64,\n}\n\n#[update]\nfn transfer(args: TransferArgs) -> Result<(), String> {\n    // Your transfer logic here\n}`}
             />
+        </div>
+    ),
+    "Visit ReadMe": (
+        <div className="font-rem">
+            <a href="https://github.com/edmhok/Tarsier-Token/blob/main/README.md" target="_blank">
+                <h1 className="text-3xl font-bold mb-4">Click to visit Github Read.Me</h1>
+            </a>
         </div>
     ),
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
+import { FaFacebook } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -134,6 +135,11 @@ const Navbar: React.FC = () => {
           <a href="https://t.me/+8mbNu3iI7-diMmU9" target="_blank" rel="noopener noreferrer">
             <div className="border-[1px] cursor-pointer border-[#dc228f] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
               <FaTelegram color="#dc228f" size={24} />
+            </div>
+          </a>
+          <a href="https://www.facebook.com/people/Tarsian-MEME-Community/61561461512943/" target="_blank" rel="noopener noreferrer">
+            <div className="border-[1px] cursor-pointer border-[#dc228f] rounded-full w-[30px] h-[30px] flex items-center justify-center p-1">
+              <FaFacebook color="#dc228f" size={24} />
             </div>
           </a>
         </div>
