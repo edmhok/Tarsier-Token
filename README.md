@@ -5,6 +5,8 @@
 
 Welcome to the official GitHub repository for the Tarsier Token ($TARS), the meme token with a mission to protect the Philippine Tarsier and its habitat!
 
+[Watch our Video](https://www.youtube.com/watch?v=ZVGeJfPOWC4&t=6s)
+
 ## About $TARS
 
 $TARS is more than just a meme token; it's a community-driven movement that combines the fun of crypto with a passion for conservation. Built on the Internet Computer Protocol (ICP), $TARS aims to:
@@ -16,18 +18,18 @@ $TARS is more than just a meme token; it's a community-driven movement that comb
 
 ## Getting Started
 
-1. **Join the Community:** Connect with us on [Twitter](https://x.com/tarsians) and [Discord](https://discord.com/invite/V3cJtysw).
-2. **Learn More:** Visit our [website](http://tarsian.xyz) to learn about our mission, roadmap, and team.
+1. **Join the Community:** Connect with us on [Twitter-X](https://x.com/tarsians) and [Twitter-X Community](https://x.com/i/communities/1800913406847074772), [Telegram](https://t.me/+8mbNu3iI7-diMmU9) and [Discord](https://discord.com/invite/V3cJtysw).
+2. **Learn More:** Visit our [website](http://tarsian.xyz) or [ICP-website](https://d5wek-eiaaa-aaaap-ahkeq-cai.icp0.io/) to learn about our mission, roadmap, and team.
 3. **Get $TARS:** You can acquire $TARS through airdrops, staking rewards, or on decentralized exchanges.
-4. **SWAP:** Use Canister: i5xtb-aaaaa-aaaam-acrja-cai
-5. **Participate:** Contribute to the community, collect NFTs, and help us protect the Tarsier!
+4. **Add TARS Token:** If you want add TARS using ICRC-2 Token standard and its Canister: i5xtb-aaaaa-aaaam-acrja-cai
+5. **Participate:** Contribute to the community, collect NFTs, and help us protect the Tarsier! [Click here for ZEALY](https://zealy.io/cw/tarstarsieriancommunity/questboard?invitationId=nmGKCJg_AtjxNQHYKbUQ_)
 
 ## Repository Contents
 
-- **Smart Contracts:** The core $TARS token and NFT smart contracts.
+- **Smart Contracts:** The core $TARS token smart contracts.
 - **Frontend:** ReactJS, Typescript
 - **Documentation:** Whitepaper, technical documentation, and other resources.
-  [Pitchdeck](https://www.canva.com/design/DAGIq0T2JFQ/kkgufg6tmWhR0iRoKqGJsw/edit?utm_content=DAGIq0T2JFQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+  [Visit our Pitchdeck](https://www.canva.com/design/DAGIq0T2JFQ/kkgufg6tmWhR0iRoKqGJsw/edit?utm_content=DAGIq0T2JFQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
   To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
